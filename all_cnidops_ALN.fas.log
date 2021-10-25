@@ -1,0 +1,471 @@
+IQ-TREE multicore version 1.5.5 for Mac OS X 64-bit built Feb  4 2018
+Copyright (c) 2011-2017 by Bui Quang Minh, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, and Arndt von Haeseler.
+
+Host:    Todds-MacBook-Pro.local (AVX2, FMA3, 16 GB RAM)
+Command: iqtree -s all_cnidops_ALN.fas -m JTT+F+R7 -nt AUTO
+Seed:    918755 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Oct 24 22:29:25 2021
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file all_cnidops_ALN.fas ... Fasta format detected
+NOTE: Change sequence name 'Tripedalia cystophora AGB67500.1 Kozmik-Opn5; Antibody-Opsin1' -> Tripedalia_cystophora_AGB67500.1
+NOTE: Change sequence name 'Tripedalia cystophora QBL02615.1 Opsin-likeGPCR; Antibody-Opsin2' -> Tripedalia_cystophora_QBL02615.1
+NOTE: Change sequence name 'Tripedalia cystophora AGB67503.1' -> Tripedalia_cystophora_AGB67503.1
+NOTE: Change sequence name 'Tripedalia cystophora AGB67502.1' -> Tripedalia_cystophora_AGB67502.1
+NOTE: Change sequence name 'Tripedalia cystophora AGB67495.1' -> Tripedalia_cystophora_AGB67495.1
+NOTE: Change sequence name 'Tripedalia cystophora QBS47879.1 NielsenLEO' -> Tripedalia_cystophora_QBS47879.1
+NOTE: Change sequence name 'Tripedalia cystophora AHZ63731.1 BieleckiLEO' -> Tripedalia_cystophora_AHZ63731.1
+NOTE: Change sequence name 'Tripedalia cystophora AGB67504.1' -> Tripedalia_cystophora_AGB67504.1
+NOTE: Change sequence name 'Tripedalia cystophora AGB67501.1' -> Tripedalia_cystophora_AGB67501.1
+NOTE: Change sequence name 'Tripedalia cystophora AGB67499.1' -> Tripedalia_cystophora_AGB67499.1
+NOTE: Change sequence name 'Tripedalia cystophora AGB67498.1' -> Tripedalia_cystophora_AGB67498.1
+NOTE: Change sequence name 'Tripedalia cystophora AGB67497.1' -> Tripedalia_cystophora_AGB67497.1
+NOTE: Change sequence name 'Tripedalia cystophora AGB67496.1 KozmikTcop9; Antibody-Opsin3' -> Tripedalia_cystophora_AGB67496.1
+NOTE: Change sequence name 'Tripedalia cystophora AGB67494.1' -> Tripedalia_cystophora_AGB67494.1
+NOTE: Change sequence name 'Tripedalia cystophora AGB67493.1' -> Tripedalia_cystophora_AGB67493.1
+NOTE: Change sequence name 'Tripedalia cystophora AGB67492.1' -> Tripedalia_cystophora_AGB67492.1
+NOTE: Change sequence name 'Tripedalia cystophora AGB67491.1' -> Tripedalia_cystophora_AGB67491.1
+NOTE: Change sequence name 'Tripedalia cystophora AGB67490.1' -> Tripedalia_cystophora_AGB67490.1
+NOTE: Change sequence name 'Tripedalia cystophora AGB67489.1 Picciani-A0A059NTC5;Kozmik-op16' -> Tripedalia_cystophora_AGB67489.1
+NOTE: Change sequence name 'Tripedalia cystophora AGB67488.1' -> Tripedalia_cystophora_AGB67488.1
+NOTE: Change sequence name 'Tripedalia cystophora QBL02613 Antibody-Opsin3' -> Tripedalia_cystophora_QBL02613
+NOTE: Change sequence name 'Tripedalia cystophora QBS47880.1' -> Tripedalia_cystophora_QBS47880.1
+NOTE: Change sequence name 'Tripedalia cystophora QBL02614.1' -> Tripedalia_cystophora_QBL02614.1
+Alignment most likely contains protein sequences
+Alignment has 273 sequences with 1596 columns and 981 patterns (566 informative sites, 795 constant sites)
+                                                                         Gap/Ambiguity  Composition  p-value
+   1  Hydra_vulgaris_XP_012562617.1_PREDICTED_opsin3like                        80.95%    passed     15.98%
+   2  Hydra_vulgaris_F1LIP2_xenopsin                                            80.08%    passed     38.39%
+   3  Nematostella_vectensis_A9UMX1_xenopsin                                    81.14%    failed      0.86%
+   4  Nematostella_vectensis_A9UMX0_xenopsin                                    81.08%    passed     35.84%
+   5  Nematostella_vectensis_A9UMX2_xenopsin                                    78.07%    passed      7.05%
+   6  Orbicella_faveolata_XP_020607308.1_melanopsinlike                         78.45%    failed      0.24%
+   7  Orbicella_faveolata_XP_020608729.1_melanopsinlike                         77.01%    passed     45.34%
+   8  Orbicella_faveolata_XP_020610777.1_melanopsinlike                         79.76%    passed     15.13%
+   9  Orbicella_faveolata_XP_020610779.1_melanopsinBlike                        79.89%    passed     17.18%
+  10  Orbicella_faveolata_XP_020610780.1_melanopsinlike                         79.89%    passed     24.64%
+  11  Orbicella_faveolata_XP_020611806.1_melanopsinlike                         79.64%    passed     93.62%
+  12  Orbicella_faveolata_XP_020617662.1_melanopsinAlike                        79.95%    passed     69.19%
+  13  Orbicella_faveolata_XP_020629279.1_melanopsinAlike                        78.76%    passed     35.65%
+  14  Orbicella_faveolata_XP_020629280.1_LOW_QUALITY_PROTEIN_pinopsinlike       78.95%    failed      1.32%
+  15  Orbicella_faveolata_XP_020632135.1_parapinopsinlike                       78.63%    passed     14.16%
+  16  Acropora_digitifera_XP_015752574.1_PREDICTED_melanopsinAlike              78.51%    passed     20.29%
+  17  Acropora_digitifera_XP_015753551.1_PREDICTED_melanopsinlike               79.32%    passed     62.33%
+  18  Acropora_digitifera_XP_015753552.1_PREDICTED_melanopsinlike               79.26%    passed     42.18%
+  19  Acropora_digitifera_XP_015764657.1_PREDICTED_melanopsinlike               78.20%    passed      8.00%
+  20  Acropora_digitifera_XP_015775460.1_PREDICTED_melanopsinlike               76.57%    passed     62.16%
+  21  Hydra_vulgaris_XP_002160448.1_PREDICTED_pinopsinlike                      80.39%    passed     13.80%
+  22  Hydra_vulgaris_XP_002163209.2_PREDICTED_longwavesensitive_opsin_1like     82.83%    passed     32.89%
+  23  Hydra_vulgaris_XP_002163327.1_PREDICTED_melanopsinAlike                   80.58%    passed     27.30%
+  24  Hydra_vulgaris_XP_002163358.2_PREDICTED_mediumwavesensitive_opsin_1like   79.64%    passed     55.44%
+  25  Hydra_vulgaris_XP_004205844.1_PREDICTED_opsin3like                        80.26%    failed      1.66%
+  26  Hydra_vulgaris_XP_004208213.1_PREDICTED_rhodopsin_G0coupledlike           80.51%    failed      0.49%
+  27  Hydra_vulgaris_XP_004209180.1_PREDICTED_pinopsinlike                      80.08%    passed      9.90%
+  28  Hydra_vulgaris_XP_012555848.1_PREDICTED_opsin3like                        80.51%    failed      2.74%
+  29  Hydra_vulgaris_XP_012556650.1_PREDICTED_opsin3like                        80.01%    passed      5.30%
+  30  Hydra_vulgaris_XP_012556969.1_PREDICTED_rhodopsinlike                     82.14%    passed      6.59%
+  31  Hydra_vulgaris_XP_012557437.1_PREDICTED_opsin3likepartial_                81.95%    failed      3.99%
+  32  Hydra_vulgaris_XP_012557991.1_PREDICTED_opsin3like                        80.95%    failed      4.15%
+  33  Hydra_vulgaris_XP_012559098.1_PREDICTED_pinopsinlikepartial_              67.48%    failed      0.11%
+  34  Hydra_vulgaris_XP_012559708.1_PREDICTED_rhodopsin_G0coupledlike           79.82%    passed      7.72%
+  35  Hydra_vulgaris_XP_012560188.1_PREDICTED_rhodopsin_G0coupledlike           80.14%    passed     37.07%
+  36  Hydra_vulgaris_XP_012560869.1_PREDICTED_opsin3like                        81.52%    failed      1.75%
+  37  Hydra_vulgaris_XP_012561008.1_PREDICTED_rhodopsin_G0coupledlike           79.57%    passed      5.48%
+  38  Hydra_vulgaris_XP_012561250.1_PREDICTED_opsin3like                        80.08%    passed      7.93%
+  39  Hydra_vulgaris_XP_012561431.1_PREDICTED_opsin3like                        80.20%    passed      5.96%
+  40  Hydra_vulgaris_XP_012561474.1_PREDICTED_opsin3like                        82.27%    passed     10.51%
+  41  Hydra_vulgaris_XP_012561673.1_PREDICTED_parapinopsinlike                  80.76%    failed      1.47%
+  42  Hydra_vulgaris_XP_012561930.1_PREDICTED_opsin3like                        82.33%    passed     15.93%
+  43  Hydra_vulgaris_XP_012562542.1_PREDICTED_opsin3like                        81.89%    passed      7.09%
+  44  Hydra_vulgaris_XP_012562923.1_PREDICTED_opsin3like                        80.70%    failed      2.40%
+  45  Hydra_vulgaris_XP_012563654.1_PREDICTED_rhodopsin_G0coupledlike           80.76%    failed      0.41%
+  46  Hydra_vulgaris_XP_012563781.1_PREDICTED_rhodopsin_G0coupledlike           80.76%    failed      0.24%
+  47  Hydra_vulgaris_XP_012563909.1_PREDICTED_parapinopsinlike                  80.76%    failed      0.42%
+  48  Hydra_vulgaris_XP_012564259.1_PREDICTED_opsin3like                        80.01%    failed      0.05%
+  49  Hydra_vulgaris_XP_012564631.1_PREDICTED_opsin3like                        79.82%    passed     24.29%
+  50  Acropora_palmata_L0ATA4_xenopsin                                          78.51%    passed     21.16%
+  51  Acropora_palmata_L0AUA8_xenopsin                                          77.94%    passed     24.36%
+  52  Aiptasia_pallida_1434                                                     80.01%    passed     11.35%
+  53  Aiptasia_pallida_1596                                                     76.57%    passed     16.66%
+  54  Aiptasia_pallida_1855                                                     79.70%    passed     29.65%
+  55  Aiptasia_pallida_1862                                                     87.91%    passed     84.39%
+  56  Alatina_alata_256                                                         79.57%    passed     86.63%
+  57  Alatina_alata_260                                                         79.32%    passed     16.36%
+  58  Alatina_alata_5200                                                        89.04%    passed     57.57%
+  59  Alatina_alata_5205                                                        77.57%    passed      7.88%
+  60  Anthopleura_elegantissima_295                                             78.45%    passed     25.09%
+  61  Anthopleura_elegantissima_325                                             78.88%    passed     42.95%
+  62  Anthopleura_elegantissima_353                                             80.89%    passed     39.65%
+  63  Anthopleura_elegantissima_565                                             80.45%    passed     44.87%
+  64  Aurelia_aurita_664                                                        84.02%    passed     74.18%
+  65  Aurelia_aurita_684                                                        77.51%    passed     16.28%
+  66  Aurelia_aurita_689                                                        79.51%    passed     69.31%
+  67  Aurelia_aurita_705                                                        80.51%    passed     51.01%
+  68  Aurelia_aurita_707                                                        78.13%    passed     42.76%
+  69  Aurelia_aurita_773                                                        83.08%    passed     79.12%
+  70  Aurelia_aurita_776                                                        78.26%    failed      3.73%
+  71  Aurelia_aurita_778                                                        78.57%    failed      3.34%
+  72  Aurelia_aurita_804                                                        87.84%    passed     21.19%
+  73  Biomphalaria_glabrata_XP_013088307_xenopsin                               63.03%    failed      0.00%
+  74  Brachionus_sp__koreanus_A0A0A7DN75_xenopsin                               81.58%    failed      0.02%
+  75  Brachionus_sp__koreanus_A0A0A7DNH5_xenopsin                               84.40%    passed     60.95%
+  76  Brachionus_sp__koreanus_A0A0A7DNH9_xenopsin                               85.71%    passed     13.07%
+  77  Bunodosoma_cavernata_2052                                                 87.91%    passed     81.77%
+  78  Carybdea_rastonii_BAG80696                                                79.32%    passed     14.44%
+  79  Cladonema_radiatum_A9CR18_CropB1                                          78.95%    passed     93.83%
+  80  Cladonema_radiatum_A9CR24_CropB4                                          79.45%    passed     85.03%
+  81  Cladonema_radiatum_A9CR26_CropM                                           81.08%    passed     70.80%
+  82  Cladonema_radiatum_A9CR28_CropO                                           81.39%    passed     13.56%
+  83  Cladonema_radiatum_A9CR30_CropC                                           80.76%    passed     81.26%
+  84  Cladonema_radiatum_A9CR32_CropE                                           80.26%    passed     98.26%
+  85  Cladonema_radiatum_A9CR34_CropD                                           80.70%    passed     59.92%
+  86  Cladonema_radiatum_A9CR36_CropH                                           80.70%    passed     85.72%
+  87  Cladonema_radiatum_A9CR37_CropI                                           80.70%    passed     89.47%
+  88  Cladonema_radiatum_A9CR38_CropL                                           79.95%    passed     75.72%
+  89  Cladonema_radiatum_A9CR39_CropF                                           80.39%    passed     97.69%
+  90  Cladonema_radiatum_A9CR40_CropG1                                          81.08%    passed     92.18%
+  91  Cladonema_radiatum_A9CR42_CropG2                                          81.08%    passed     93.69%
+  92  Cladonema_radiatum_A9CR43_CropN1                                          81.20%    passed     74.11%
+  93  Cladonema_radiatum_A9CR48_CropK1                                          80.83%    passed     73.39%
+  94  Cladonema_radiatum_A9CR51_CropK2                                          80.83%    passed     63.01%
+  95  Cladonema_radiatum_A9CR54_CropJ                                           81.02%    passed     36.42%
+  96  Crassostrea_gigas_K1P6Y0_xenopsin                                         73.43%    passed     31.22%
+  97  Crassostrea_gigas_K1PW76_xenopsin                                         77.88%    passed     95.01%
+  98  Crassostrea_gigas_K1QCZ3_xenopsin                                         75.81%    passed      8.59%
+  99  Crassostrea_gigas_K1QG76_xenopsin                                         79.14%    passed     76.87%
+ 100  Crassostrea_gigas_XP_011412507_xenopsin                                   75.19%    passed     31.93%
+ 101  Crassostrea_gigas_XP_011421213_xenopsin                                   76.57%    passed     88.76%
+ 102  Craterolophus_convolvulus_5261                                            89.66%    passed     64.04%
+ 103  Favia_lizardensis_875                                                     78.70%    passed     10.44%
+ 104  Haliclystus_auricula_4910                                                 79.01%    passed     54.58%
+ 105  Haliclystus_auricula_4917                                                 89.85%    passed     99.37%
+ 106  Hydra_magnipapillata_1090                                                 80.33%    failed      3.59%
+ 107  Hydra_magnipapillata_1094                                                 81.52%    failed      3.50%
+ 108  Hydra_magnipapillata_1100                                                 86.90%    passed     45.61%
+ 109  Hydra_magnipapillata_1101                                                 87.66%    passed     12.44%
+ 110  Hydra_magnipapillata_1106                                                 86.53%    passed     72.85%
+ 111  Hydra_magnipapillata_1113                                                 86.72%    passed     57.32%
+ 112  Hydra_magnipapillata_1115                                                 77.63%    passed      6.42%
+ 113  Hydra_magnipapillata_1116                                                 81.39%    passed     18.77%
+ 114  Hydra_magnipapillata_1129                                                 79.57%    failed      4.51%
+ 115  Hydra_magnipapillata_1135                                                 85.46%    passed     16.05%
+ 116  Hydra_magnipapillata_1137                                                 87.72%    failed      3.00%
+ 117  Hydra_oligactis_1085                                                      86.34%    passed     68.28%
+ 118  Hydra_oligactis_1088                                                      85.46%    passed     33.62%
+ 119  Hydra_oligactis_1089                                                      84.34%    passed     38.78%
+ 120  Hydra_vulgaris_1164                                                       77.38%    failed      0.91%
+ 121  Hydra_vulgaris_1183                                                       80.01%    failed      2.77%
+ 122  Hydra_vulgaris_1185                                                       79.20%    passed      5.99%
+ 123  Hydra_vulgaris_1188                                                       80.95%    passed      6.44%
+ 124  Hydra_vulgaris_1189                                                       85.34%    passed     12.76%
+ 125  Hydra_vulgaris_1190                                                       77.63%    passed      7.43%
+ 126  Hydra_vulgaris_1191                                                       87.28%    passed     39.05%
+ 127  Hydra_vulgaris_1193                                                       86.09%    passed      6.55%
+ 128  Hydra_vulgaris_1194                                                       79.57%    failed      4.74%
+ 129  Hydra_vulgaris_1200                                                       82.96%    passed     28.80%
+ 130  Hydra_vulgaris_1202                                                       80.08%    passed     43.04%
+ 131  Hydra_vulgaris_1206                                                       87.47%    passed     31.21%
+ 132  Hydra_vulgaris_1218                                                       82.39%    passed     51.36%
+ 133  Hydra_vulgaris_1222                                                       84.40%    passed      5.43%
+ 134  Hydra_vulgaris_1231                                                       57.52%    failed      0.00%
+ 135  Hydra_vulgaris_1243                                                       79.51%    passed     28.90%
+ 136  Hydra_vulgaris_F1LIN8_xenopsin                                            80.64%    passed     18.25%
+ 137  Hydra_vulgaris_F1LIN9_xenopsin                                            79.51%    passed     32.53%
+ 138  Hydra_vulgaris_F1LIP0_xenopsin                                            80.95%    passed     11.68%
+ 139  Hydra_vulgaris_F1LIP1_xenopsin                                            80.76%    failed      0.25%
+ 140  Hydra_vulgaris_F1LIP3_xenopsin                                            80.70%    failed      0.45%
+ 141  Hydra_vulgaris_F1LIP4_xenopsin                                            80.01%    failed      2.61%
+ 142  Hydra_vulgaris_F1LIP5_xenopsin                                            80.70%    passed      7.09%
+ 143  Hydractinia_symbiolongicarpus_1011                                        80.51%    passed     23.84%
+ 144  Hydractinia_symbiolongicarpus_1017                                        79.07%    passed     25.13%
+ 145  Idiosepius_paradoxus_A0A0H5ATB0_xenopsin                                  72.06%    passed     29.17%
+ 146  Lingula_anatina_XP_013382905_xenopsin                                     77.69%    failed      0.01%
+ 147  Lingula_anatina_XP_013397676_xenopsin                                     77.26%    passed     32.74%
+ 148  Lingula_anatina_XP_013400870_xenopsin                                     82.33%    passed     74.34%
+ 149  Lottia_gigantea_V3ZWI5_xenopsin                                           82.71%    passed     25.88%
+ 150  Lucernaria_quadricornis_4943                                              86.28%    passed     20.09%
+ 151  Lucernaria_quadricornis_4944                                              85.53%    passed     16.02%
+ 152  Lucernaria_quadricornis_4948                                              84.27%    passed     96.64%
+ 153  Lucernaria_quadricornis_4949                                              83.90%    passed     97.67%
+ 154  Lucernaria_quadricornis_4955                                              82.77%    passed     62.50%
+ 155  Lucernaria_quadricornis_4959                                              86.90%    passed     97.90%
+ 156  Lymnaea_stagnalis_FX185950_xenopsin                                       61.40%    failed      0.00%
+ 157  Lymnaea_stagnalis_FX190223_xenopsin                                       77.51%    failed      2.14%
+ 158  Millepora_alcicornis_2441                                                 80.64%    passed     42.80%
+ 159  Millepora_alcicornis_2446                                                 77.32%    passed     27.09%
+ 160  Millepora_alcicornis_2454                                                 79.82%    passed     30.80%
+ 161  Nanomia_bijuga_5645                                                       80.01%    passed     47.84%
+ 162  Nanomia_bijuga_5646                                                       85.71%    passed     48.51%
+ 163  Nanomia_bijuga_5648                                                       89.22%    passed     18.69%
+ 164  Nematostella_vectensis_2484                                               84.27%    failed      2.76%
+ 165  Nematostella_vectensis_2485                                               87.72%    passed      9.25%
+ 166  Nematostella_vectensis_2488                                               85.59%    passed     35.54%
+ 167  Nematostella_vectensis_2560                                               81.83%    passed     27.23%
+ 168  Nematostella_vectensis_2561                                               81.83%    passed     25.57%
+ 169  Nematostella_vectensis_3116                                               79.32%    passed     39.01%
+ 170  Nematostella_vectensis_3117                                               79.01%    passed     27.93%
+ 171  Nematostella_vectensis_3118                                               79.01%    passed     15.89%
+ 172  Nematostella_vectensis_3119                                               79.32%    passed     24.85%
+ 173  Nematostella_vectensis_3260                                               81.08%    failed      0.48%
+ 174  Nematostella_vectensis_3289                                               80.39%    passed     35.95%
+ 175  Nematostella_vectensis_3291                                               77.44%    passed     48.38%
+ 176  Nematostella_vectensis_3292                                               79.26%    passed     15.98%
+ 177  Nematostella_vectensis_3293                                               78.07%    passed     40.68%
+ 178  Nematostella_vectensis_3417                                               75.00%    failed      1.39%
+ 179  Nematostella_vectensis_3463                                               84.71%    passed     22.59%
+ 180  Nematostella_vectensis_A9UMW6_xenopsin                                    78.07%    failed      3.96%
+ 181  Nematostella_vectensis_A9UMW7_xenopsin                                    79.01%    passed     21.80%
+ 182  Nematostella_vectensis_A9UMX3_xenopsin                                    78.38%    failed      0.84%
+ 183  Nematostella_vectensis_A9UMX5_xenopsin                                    76.57%    passed     17.60%
+ 184  Nematostella_vectensis_A9UMX6_xenopsin                                    78.38%    passed      5.16%
+ 185  Nematostella_vectensis_A9UMX7_xenopsin                                    81.08%    failed      0.46%
+ 186  Pocillopora_damicornis_3554                                               79.20%    passed     15.18%
+ 187  Pocillopora_damicornis_3623                                               86.72%    passed     39.63%
+ 188  Pocillopora_damicornis_3690                                               78.63%    failed      3.58%
+ 189  Pocillopora_damicornis_3753                                               79.76%    passed     81.23%
+ 190  Podocoryna_carnea_3788                                                    78.76%    passed     26.17%
+ 191  Podocoryna_carnea_3794                                                    78.76%    passed     17.78%
+ 192  Podocoryna_carnea_3810                                                    76.75%    passed     22.36%
+ 193  Podocoryna_carnea_3811                                                    89.41%    passed     25.67%
+ 194  Podocoryna_carnea_5674                                                    78.76%    passed     27.58%
+ 195  Podocoryna_carnea_5686                                                    78.76%    passed     17.11%
+ 196  Podocoryna_carnea_5692                                                    78.76%    passed     19.97%
+ 197  Podocoryna_carnea_5702                                                    76.69%    passed     23.47%
+ 198  Podocoryna_carnea_A9CR57_xenopsin                                         78.95%    passed     36.05%
+ 199  Podocoryna_carnea_A9CR60_xenopsin                                         77.44%    passed     44.43%
+ 200  Porites_astreoides_3875                                                   77.82%    passed     11.04%
+ 201  Porites_astreoides_3952                                                   77.44%    passed     37.79%
+ 202  Porites_astreoides_4131                                                   80.39%    passed      7.18%
+ 203  Porites_astreoides_4183                                                   78.38%    failed      2.17%
+ 204  Porites_astreoides_4236                                                   79.64%    passed     25.55%
+ 205  Porites_astreoides_4399                                                   80.45%    passed     10.24%
+ 206  Porites_astreoides_4429                                                   79.07%    passed     78.73%
+ 207  Porites_astreoides_4430                                                   80.01%    passed     86.82%
+ 208  Porites_astreoides_4431                                                   80.08%    passed     81.51%
+ 209  Protopalythoa_variabilis_4495                                             89.22%    passed     61.95%
+ 210  Renilla_koellikeri_5081                                                   77.63%    passed     23.74%
+ 211  Renilla_koellikeri_5101                                                   81.70%    passed     18.74%
+ 212  Renilla_koellikeri_5175                                                   85.09%    failed      4.11%
+ 213  Rhizotrochus_sp_5841                                                      86.90%    passed     39.13%
+ 214  Rhopilema_esculentum_4586                                                 79.07%    passed     91.39%
+ 215  Rhopilema_esculentum_4587                                                 79.07%    passed     89.03%
+ 216  Rhopilema_esculentum_4616                                                 86.78%    passed     92.32%
+ 217  Rhopilema_esculentum_4679                                                 86.84%    passed     78.47%
+ 218  Stomphia_coccinea_2336                                                    83.46%    failed      3.84%
+ 219  Stylophora_pistillata_4700                                                78.45%    passed     34.20%
+ 220  Stylophora_pistillata_4735                                                78.76%    passed     46.89%
+ 221  Terebratalia_transversa_F1D8E5_xenopsin                                   73.56%    failed      0.35%
+ 222  Triactis_producta_2428                                                    87.59%    failed      3.09%
+ 223  Tripedalia_cystophora_A0A059NTC5_xenopsin                                 80.01%    passed     83.48%
+ 224  Tripedalia_cystophora_A0A059NTC6_xenopsin                                 79.95%    passed     56.42%
+ 225  Tripedalia_cystophora_A0A059NTC7_xenopsin                                 80.51%    passed     94.68%
+ 226  Tripedalia_cystophora_A0A059NTC8_xenopsin                                 80.20%    passed     14.82%
+ 227  Tripedalia_cystophora_A0A059NTD1_xenopsin                                 74.19%    passed     33.28%
+ 228  Tripedalia_cystophora_A0A059NTD2_xenopsin                                 80.20%    passed     59.39%
+ 229  Tripedalia_cystophora_A0A059NTD3_xenopsin                                 80.01%    passed     57.36%
+ 230  Tripedalia_cystophora_A0A059NTD4_xenopsin                                 78.13%    passed     48.06%
+ 231  Tripedalia_cystophora_A0A059NTD5_xenopsin                                 79.14%    passed     45.22%
+ 232  Tripedalia_cystophora_A0A059NTD6_xenopsin                                 76.94%    passed     62.45%
+ 233  Tripedalia_cystophora_A0A059NTD7_xenopsin                                 79.51%    passed     89.65%
+ 234  Tripedalia_cystophora_A0A059NTG1_xenopsin                                 80.01%    passed     45.57%
+ 235  Tripedalia_cystophora_A0A059NTG2_xenopsin                                 79.45%    passed     74.63%
+ 236  Tripedalia_cystophora_A0A059NTG3_xenopsin                                 79.39%    passed      8.64%
+ 237  Tripedalia_cystophora_A0A059NTG7_xenopsin                                 79.32%    passed     11.16%
+ 238  Tripedalia_cystophora_A0A059NTG8_xenopsin                                 82.08%    passed     57.44%
+ 239  Tripedalia_cystophora_A0A059NTG9_xenopsin                                 79.20%    passed     88.68%
+ 240  Tripedalia_cystophora_EU310498_xenopsin                                   79.39%    passed     18.97%
+ 241  Tripedalia_cystophora_AGB67500.1                                          79.51%    passed     89.65%
+ 242  Tripedalia_cystophora_QBL02615.1                                          82.96%    passed     64.10%
+ 243  Tripedalia_cystophora_AGB67503.1                                          78.13%    passed     48.06%
+ 244  Tripedalia_cystophora_AGB67502.1                                          79.20%    passed     88.68%
+ 245  Tripedalia_cystophora_AGB67495.1                                          76.94%    passed     62.45%
+ 246  Tripedalia_cystophora_QBS47879.1                                          79.32%    passed     11.16%
+ 247  Tripedalia_cystophora_AHZ63731.1                                          79.39%    passed     11.80%
+ 248  Tripedalia_cystophora_AGB67504.1                                          80.20%    passed     14.82%
+ 249  Tripedalia_cystophora_AGB67501.1                                          79.39%    passed      8.64%
+ 250  Tripedalia_cystophora_AGB67499.1                                          80.51%    passed     94.68%
+ 251  Tripedalia_cystophora_AGB67498.1                                          80.01%    passed     57.36%
+ 252  Tripedalia_cystophora_AGB67497.1                                          82.08%    passed     57.44%
+ 253  Tripedalia_cystophora_AGB67496.1                                          79.45%    passed     74.63%
+ 254  Tripedalia_cystophora_AGB67494.1                                          79.95%    passed     56.42%
+ 255  Tripedalia_cystophora_AGB67493.1                                          80.20%    passed     59.39%
+ 256  Tripedalia_cystophora_AGB67492.1                                          79.32%    passed     11.16%
+ 257  Tripedalia_cystophora_AGB67491.1                                          80.01%    passed     45.57%
+ 258  Tripedalia_cystophora_AGB67490.1                                          79.14%    passed     45.22%
+ 259  Tripedalia_cystophora_AGB67489.1                                          80.01%    passed     83.48%
+ 260  Tripedalia_cystophora_AGB67488.1                                          74.19%    passed     33.28%
+ 261  Tripedalia_cystophora_QBL02613                                            81.58%    passed     54.35%
+ 262  Tripedalia_cystophora_QBS47880.1                                          79.39%    passed     18.97%
+ 263  Tripedalia_cystophora_QBL02614.1                                          79.51%    passed     89.65%
+ 264  Chlytia_haemaspherica_CheOpsin9                                           83.02%    passed     46.52%
+ 265  Chlytia_haemaspherica_CheOpsin10                                          83.02%    failed      2.37%
+ 266  Chlytia_haemaspherica_CheOpsin1                                           82.08%    passed     38.25%
+ 267  Chlytia_haemaspherica_CheOpsin2                                           81.95%    passed     31.30%
+ 268  Chlytia_haemaspherica_CheOpsin3                                           82.02%    passed     51.54%
+ 269  Chlytia_haemaspherica_CheOpsin4                                           82.52%    passed     12.25%
+ 270  Chlytia_haemaspherica_CheOpsin5                                           82.21%    passed     79.00%
+ 271  Chlytia_haemaspherica_CheOpsin6                                           81.64%    passed     92.87%
+ 272  Chlytia_haemaspherica_CheOpsin7                                           82.08%    passed     30.21%
+ 273  Chlytia_haemaspherica_CheOpsin8                                           82.27%    passed     36.65%
+WARNING: 273 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                     80.46%  47 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Tripedalia_cystophora_AGB67489.1 is identical to Tripedalia_cystophora_A0A059NTC5_xenopsin but kept for subsequent analysis
+NOTE: Tripedalia_cystophora_AGB67494.1 is identical to Tripedalia_cystophora_A0A059NTC6_xenopsin but kept for subsequent analysis
+NOTE: Tripedalia_cystophora_AGB67499.1 is identical to Tripedalia_cystophora_A0A059NTC7_xenopsin but kept for subsequent analysis
+NOTE: Tripedalia_cystophora_AGB67504.1 is identical to Tripedalia_cystophora_A0A059NTC8_xenopsin but kept for subsequent analysis
+NOTE: Tripedalia_cystophora_AGB67488.1 is identical to Tripedalia_cystophora_A0A059NTD1_xenopsin but kept for subsequent analysis
+NOTE: Tripedalia_cystophora_AGB67493.1 is identical to Tripedalia_cystophora_A0A059NTD2_xenopsin but kept for subsequent analysis
+NOTE: Tripedalia_cystophora_AGB67498.1 is identical to Tripedalia_cystophora_A0A059NTD3_xenopsin but kept for subsequent analysis
+NOTE: Tripedalia_cystophora_AGB67503.1 is identical to Tripedalia_cystophora_A0A059NTD4_xenopsin but kept for subsequent analysis
+NOTE: Tripedalia_cystophora_AGB67490.1 is identical to Tripedalia_cystophora_A0A059NTD5_xenopsin but kept for subsequent analysis
+NOTE: Tripedalia_cystophora_AGB67495.1 is identical to Tripedalia_cystophora_A0A059NTD6_xenopsin but kept for subsequent analysis
+NOTE: Tripedalia_cystophora_AGB67500.1 is identical to Tripedalia_cystophora_A0A059NTD7_xenopsin but kept for subsequent analysis
+NOTE: Tripedalia_cystophora_AGB67491.1 is identical to Tripedalia_cystophora_A0A059NTG1_xenopsin but kept for subsequent analysis
+NOTE: Tripedalia_cystophora_AGB67496.1 is identical to Tripedalia_cystophora_A0A059NTG2_xenopsin but kept for subsequent analysis
+NOTE: Tripedalia_cystophora_AGB67501.1 is identical to Tripedalia_cystophora_A0A059NTG3_xenopsin but kept for subsequent analysis
+NOTE: Tripedalia_cystophora_QBS47879.1 is identical to Tripedalia_cystophora_A0A059NTG7_xenopsin but kept for subsequent analysis
+NOTE: Tripedalia_cystophora_AGB67497.1 is identical to Tripedalia_cystophora_A0A059NTG8_xenopsin but kept for subsequent analysis
+NOTE: Tripedalia_cystophora_AGB67502.1 is identical to Tripedalia_cystophora_A0A059NTG9_xenopsin but kept for subsequent analysis
+NOTE: Tripedalia_cystophora_QBS47880.1 is identical to Tripedalia_cystophora_EU310498_xenopsin but kept for subsequent analysis
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Tripedalia_cystophora_QBL02614.1 (identical to Tripedalia_cystophora_A0A059NTD7_xenopsin) is ignored but added at the end
+NOTE: Tripedalia_cystophora_AGB67492.1 (identical to Tripedalia_cystophora_A0A059NTG7_xenopsin) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to all_cnidops_ALN.fas.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.256 seconds
+
+NOTE: 294 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 8 CPU cores
+7 trees examined
+Threads: 1 / Time: 8.449 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -186459
+Threads: 2 / Time: 5.252 sec / Speedup: 1.609 / Efficiency: 80% / LogL: -186459
+Threads: 3 / Time: 3.880 sec / Speedup: 2.177 / Efficiency: 73% / LogL: -186459
+Threads: 4 / Time: 3.761 sec / Speedup: 2.246 / Efficiency: 56% / LogL: -186459
+Threads: 5 / Time: 3.547 sec / Speedup: 2.382 / Efficiency: 48% / LogL: -186459
+BEST NUMBER OF THREADS: 3
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -112272.088
+2. Current log-likelihood: -106011.556
+3. Current log-likelihood: -105932.432
+4. Current log-likelihood: -105921.041
+5. Current log-likelihood: -105911.403
+6. Current log-likelihood: -105909.186
+7. Current log-likelihood: -105908.668
+8. Current log-likelihood: -105908.494
+Optimal log-likelihood: -105908.422
+Site proportion and rates:  (0.018,0.028) (0.035,0.148) (0.072,0.324) (0.126,0.504) (0.214,0.762) (0.288,1.154) (0.247,1.667)
+Parameters optimization took 8 rounds (46.594 sec)
+Computing ML distances based on estimated model parameters... 62.727 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.057 seconds
+Log-likelihood of BIONJ tree: -106347.780
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 28.823 second
+Computing log-likelihood of 98 initial trees ... 96.552 seconds
+Current best score: -105908.422
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -105594.252
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -105562.271
+Iteration 10 / LogL: -105615.324 / Time: 0h:6m:12s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 19: -105547.665
+Iteration 20 / LogL: -105612.447 / Time: 0h:8m:26s
+Finish initializing candidate tree set (20)
+Current best tree score: -105547.665 / CPU time: 407.832
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -105622.021 / Time: 0h:11m:0s (0h:33m:47s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 40: -105543.261
+Iteration 40 / LogL: -105543.261 / Time: 0h:13m:48s (0h:35m:24s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 42: -105541.308
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 47: -105537.978
+Iteration 50 / LogL: -105568.257 / Time: 0h:16m:44s (0h:33m:7s left)
+Iteration 60 / LogL: -105545.814 / Time: 0h:19m:20s (0h:28m:31s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 65: -105537.512
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 68: -105537.416
+Iteration 70 / LogL: -105542.769 / Time: 0h:21m:56s (0h:31m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 71: -105536.217
+Iteration 80 / LogL: -105563.379 / Time: 0h:24m:28s (0h:28m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 88: -105536.155
+Iteration 90 / LogL: -105656.928 / Time: 0h:26m:52s (0h:29m:35s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 94: -105535.537
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 95: -105535.429
+Iteration 100 / LogL: -105557.582 / Time: 0h:29m:29s (0h:28m:17s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 103: -105529.494
+Iteration 110 / LogL: -105549.447 / Time: 0h:32m:4s (0h:27m:21s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 112: -105529.381
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 115: -105528.840
+Iteration 120 / LogL: -105536.652 / Time: 0h:34m:41s (0h:27m:41s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 122: -105528.713
+Iteration 130 / LogL: -105533.116 / Time: 0h:37m:11s (0h:26m:31s left)
+Iteration 140 / LogL: -105529.236 / Time: 0h:39m:29s (0h:23m:17s left)
+Iteration 150 / LogL: -105530.630 / Time: 0h:41m:54s (0h:20m:14s left)
+Iteration 160 / LogL: -105534.394 / Time: 0h:44m:20s (0h:17m:17s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 168: -105528.357
+Iteration 170 / LogL: -105529.471 / Time: 0h:46m:49s (0h:27m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 179: -105527.961
+Iteration 180 / LogL: -105556.154 / Time: 0h:49m:23s (0h:27m:19s left)
+Iteration 190 / LogL: -105534.469 / Time: 0h:51m:48s (0h:24m:23s left)
+Iteration 200 / LogL: -105532.385 / Time: 0h:54m:17s (0h:21m:32s left)
+Iteration 210 / LogL: -105547.848 / Time: 0h:56m:45s (0h:18m:44s left)
+Iteration 220 / LogL: -105534.162 / Time: 0h:59m:7s (0h:15m:55s left)
+Iteration 230 / LogL: -105541.255 / Time: 1h:1m:32s (0h:13m:9s left)
+UPDATE BEST LOG-LIKELIHOOD: -105527.961
+Iteration 240 / LogL: -105540.121 / Time: 1h:3m:58s (0h:10m:26s left)
+Iteration 250 / LogL: -105540.590 / Time: 1h:6m:19s (0h:7m:43s left)
+Iteration 260 / LogL: -105530.721 / Time: 1h:8m:43s (0h:5m:2s left)
+Iteration 270 / LogL: -105531.246 / Time: 1h:11m:9s (0h:2m:22s left)
+Iteration 280 / LogL: -105559.674 / Time: 1h:13m:33s (0h:0m:-16s left)
+TREE SEARCH COMPLETED AFTER 280 ITERATIONS / Time: 1h:13m:33s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -105527.961
+Optimal log-likelihood: -105527.958
+Site proportion and rates:  (0.018,0.029) (0.033,0.146) (0.080,0.321) (0.128,0.516) (0.216,0.778) (0.310,1.183) (0.215,1.712)
+Parameters optimization took 1 rounds (5.755 sec)
+BEST SCORE FOUND : -105527.958
+Total tree length: 157.484
+
+Total number of iterations: 280
+CPU time used for tree search: 10302.141 sec (2h:51m:42s)
+Wall-clock time used for tree search: 4314.668 sec (1h:11m:54s)
+Total CPU time used: 10568.211 sec (2h:56m:8s)
+Total wall-clock time used: 4419.430 sec (1h:13m:39s)
+
+Analysis results written to: 
+  IQ-TREE report:                all_cnidops_ALN.fas.iqtree
+  Maximum-likelihood tree:       all_cnidops_ALN.fas.treefile
+  Likelihood distances:          all_cnidops_ALN.fas.mldist
+  Screen log file:               all_cnidops_ALN.fas.log
+
+Date and Time: Sun Oct 24 23:43:05 2021

@@ -1,0 +1,15 @@
+#First cut Xenopsin clade data from Picciani alignment
+#Alignment in all_0512 and xenopsin/cnidopsin clade in Picciani....
+
+../scripts/supercuts.py -p Picciani_Xenopsin -t Picciani\ GTR\ opsin\ --\ xenopsin\ and\ cnidops.new -a all_0512.aln.txt
+
+#remove gaps to re-align
+perl -p -i -e 's/\-//g' Picciani_Xenopsin
+
+cat Picciani_Xenopsin GenBankTrip.fas > all_cnidops.fas
+
+#remove run from last time
+rm all_cnidops_ALN.fas*
+
+mafft all_cnidops.fas > all_cnidops_ALN.fas
+iqtree -s all_cnidops_ALN.fas  -m JTT+F+R7 -nt AUTO
