@@ -1,0 +1,4 @@
+scaffold393.g4.t1
+scaffold36.g49.t1
+scaffold53.g63.t1
+scaffold207.g15.t1

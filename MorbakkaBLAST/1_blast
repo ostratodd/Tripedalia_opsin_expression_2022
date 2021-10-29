@@ -1,0 +1,19 @@
+blastp -query NEO.fas -db morbakka.fa -outfmt 6  -evalue 1e-10 -out morbakka_opsins.out
+../../scripts/get2ndCol.pl morbakka_opsins.out > MOnamesNEO.txt
+python ../../scripts/fasta_manip/grab.py morbakka.fa MOnamesNEO.txt > Morbakka_opsinsNEO.fas
+
+blastp -query LEO.fas -db morbakka.fa -outfmt 6 -evalue 1e-10 -out morbakka_opsins.out
+../../scripts/get2ndCol.pl morbakka_opsins.out > MOnamesLEO.txt
+python ../../scripts/fasta_manip/grab.py morbakka.fa MOnamesLEO.txt > Morbakka_opsinsLEO.fas
+
+blastp -query GEO.fas -db morbakka.fa -outfmt 6 -evalue 1e-10 -out morbakka_opsinsGEO.out
+../../scripts/get2ndCol.pl morbakka_opsinsGEO.out > MOnamesGEO.txt
+python ../../scripts/fasta_manip/grab.py morbakka.fa MOnamesGEO.txt > Morbakka_opsinsGEO.fas
+
+
+
+cat Morbakka_opsinsGEO.fas Morbakka_opsinsLEO.fas Morbakka_opsinsNEO.fas > Morbakka_opsins.fas
+
+#remove redundant genes
+awk '/^>/{f=!d[$1];d[$1]=1}f' Morbakka_opsins.fas > Morbakka_opsins_uni.fas
+perl -p -i -e 's/\>/\>Morbakka_/g' Morbakka_opsins_uni.fas

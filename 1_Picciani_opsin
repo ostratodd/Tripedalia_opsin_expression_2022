@@ -6,7 +6,7 @@
 #remove gaps to re-align
 perl -p -i -e 's/\-//g' Picciani_Xenopsin
 
-cat morbakka15opsins.fas Picciani_Xenopsin GenBankTrip.fas > all_cnidops.fas
+cat MorbakkaBLAST/Morbakka_opsins_uni.fas Picciani_Xenopsin GenBankTrip.fas > all_cnidops.fas
 
 #remove run from last time
 rm all_cnidops_ALN.fas*

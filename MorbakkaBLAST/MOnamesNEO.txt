@@ -1,0 +1,12 @@
+scaffold393.g4.t1
+scaffold36.g49.t1
+scaffold53.g63.t1
+scaffold171.g48.t1
+scaffold53.g77.t1
+scaffold342.g16.t1
+scaffold157.g3.t1
+scaffold110.g22.t1
+scaffold872.g2.t1
+scaffold166.g6.t1
+scaffold618.g3.t1
+scaffold36.g77.t1
