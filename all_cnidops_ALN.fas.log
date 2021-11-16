@@ -381,3 +381,127 @@ Log-likelihood of BIONJ tree: -121385.253
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
 Generating 98 parsimony trees... 19.042 second
+Computing log-likelihood of 98 initial trees ... 60.691 seconds
+Current best score: -121385.253
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -121058.611
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -121048.595
+Iteration 10 / LogL: -121059.426 / Time: 0h:5m:34s
+Iteration 20 / LogL: -121070.136 / Time: 0h:8m:0s
+Finish initializing candidate tree set (20)
+Current best tree score: -121048.595 / CPU time: 426.825
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -121043.788
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -121042.078
+Iteration 30 / LogL: -121173.831 / Time: 0h:10m:51s (0h:36m:18s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 39: -121039.357
+Iteration 40 / LogL: -121051.680 / Time: 0h:13m:41s (0h:34m:44s left)
+Iteration 50 / LogL: -121056.267 / Time: 0h:16m:21s (0h:29m:42s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 54: -121033.659
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 58: -121032.898
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 60: -121032.729
+Iteration 60 / LogL: -121032.729 / Time: 0h:19m:13s (0h:32m:33s left)
+Iteration 70 / LogL: -121034.326 / Time: 0h:21m:35s (0h:28m:9s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 71: -121029.968
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 74: -121029.901
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 78: -121028.200
+Iteration 80 / LogL: -121075.505 / Time: 0h:24m:10s (0h:29m:58s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 81: -121026.748
+Iteration 90 / LogL: -121041.012 / Time: 0h:26m:33s (0h:27m:9s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 95: -121025.316
+Iteration 100 / LogL: -121038.562 / Time: 0h:29m:0s (0h:27m:49s left)
+Iteration 110 / LogL: -121046.687 / Time: 0h:31m:21s (0h:24m:26s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 111: -121024.623
+Iteration 120 / LogL: -121155.557 / Time: 0h:33m:49s (0h:25m:52s left)
+Iteration 130 / LogL: -121030.872 / Time: 0h:36m:17s (0h:22m:47s left)
+Iteration 140 / LogL: -121031.100 / Time: 0h:38m:33s (0h:19m:41s left)
+Iteration 150 / LogL: -121027.464 / Time: 0h:40m:52s (0h:16m:43s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 154: -121024.261
+Iteration 160 / LogL: -121036.711 / Time: 0h:43m:9s (0h:25m:31s left)
+Iteration 170 / LogL: -121029.291 / Time: 0h:45m:30s (0h:22m:37s left)
+Iteration 180 / LogL: -121031.362 / Time: 0h:47m:51s (0h:19m:47s left)
+Iteration 190 / LogL: -121035.728 / Time: 0h:50m:14s (0h:17m:0s left)
+Iteration 200 / LogL: -121027.475 / Time: 0h:52m:32s (0h:14m:15s left)
+Iteration 210 / LogL: -121034.765 / Time: 0h:54m:51s (0h:11m:32s left)
+Iteration 220 / LogL: -121045.694 / Time: 0h:57m:6s (0h:8m:51s left)
+Iteration 230 / LogL: -121026.342 / Time: 0h:59m:24s (0h:6m:13s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 231: -121024.134
+Iteration 240 / LogL: -121024.199 / Time: 1h:1m:48s (0h:23m:32s left)
+Iteration 250 / LogL: -121027.951 / Time: 1h:4m:8s (0h:20m:51s left)
+Iteration 260 / LogL: -121032.812 / Time: 1h:6m:29s (0h:18m:13s left)
+Iteration 270 / LogL: -121026.818 / Time: 1h:8m:53s (0h:15m:37s left)
+Iteration 280 / LogL: -121025.896 / Time: 1h:11m:12s (0h:13m:0s left)
+Iteration 290 / LogL: -121040.903 / Time: 1h:13m:32s (0h:10m:26s left)
+Iteration 300 / LogL: -121050.558 / Time: 1h:15m:56s (0h:7m:52s left)
+Iteration 310 / LogL: -121130.438 / Time: 1h:18m:19s (0h:5m:19s left)
+Iteration 320 / LogL: -121026.641 / Time: 1h:20m:39s (0h:2m:46s left)
+Iteration 330 / LogL: -121024.603 / Time: 1h:22m:59s (0h:0m:15s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 332: -121023.705
+Iteration 340 / LogL: -121031.572 / Time: 1h:25m:20s (0h:23m:9s left)
+Iteration 350 / LogL: -121023.935 / Time: 1h:27m:45s (0h:20m:37s left)
+Iteration 360 / LogL: -121026.883 / Time: 1h:30m:5s (0h:18m:4s left)
+Iteration 370 / LogL: -121024.263 / Time: 1h:32m:23s (0h:15m:31s left)
+Iteration 380 / LogL: -121030.781 / Time: 1h:34m:49s (0h:13m:0s left)
+Iteration 390 / LogL: -121024.813 / Time: 1h:37m:12s (0h:10m:29s left)
+Iteration 400 / LogL: -121029.518 / Time: 1h:39m:31s (0h:7m:58s left)
+Iteration 410 / LogL: -121026.093 / Time: 1h:41m:48s (0h:5m:28s left)
+BETTER TREE FOUND at iteration 415: -121023.704
+Iteration 420 / LogL: -121032.980 / Time: 1h:44m:9s (0h:23m:36s left)
+Iteration 430 / LogL: -121027.905 / Time: 1h:46m:29s (0h:21m:5s left)
+Iteration 440 / LogL: -121063.887 / Time: 1h:48m:48s (0h:18m:35s left)
+Iteration 450 / LogL: -121152.766 / Time: 1h:51m:8s (0h:16m:5s left)
+Iteration 460 / LogL: -121031.365 / Time: 1h:53m:24s (0h:13m:35s left)
+Iteration 470 / LogL: -121047.458 / Time: 1h:55m:40s (0h:11m:5s left)
+Iteration 480 / LogL: -121025.134 / Time: 1h:57m:58s (0h:8m:37s left)
+Iteration 490 / LogL: -121025.503 / Time: 2h:0m:15s (0h:6m:8s left)
+Iteration 500 / LogL: -121037.620 / Time: 2h:2m:40s (0h:3m:41s left)
+Iteration 510 / LogL: -121033.724 / Time: 2h:5m:3s (0h:1m:13s left)
+TREE SEARCH COMPLETED AFTER 516 ITERATIONS / Time: 2h:6m:30s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -121023.704
+2. Current log-likelihood: -121023.694
+Optimal log-likelihood: -121023.689
+Site proportion and rates:  (0.014,0.038) (0.036,0.169) (0.022,0.296) (0.069,0.374) (0.168,0.595) (0.278,0.916) (0.413,1.468)
+Parameters optimization took 2 rounds (7.266 sec)
+BEST SCORE FOUND : -121023.689
+Total tree length: 172.068
+
+Total number of iterations: 516
+CPU time used for tree search: 22311.147 sec (6h:11m:51s)
+Wall-clock time used for tree search: 7537.016 sec (2h:5m:37s)
+Total CPU time used: 22457.121 sec (6h:14m:17s)
+Total wall-clock time used: 7598.016 sec (2h:6m:38s)
+
+Analysis results written to: 
+  IQ-TREE report:                all_cnidops_ALN.fas.iqtree
+  Maximum-likelihood tree:       all_cnidops_ALN.fas.treefile
+  Likelihood distances:          all_cnidops_ALN.fas.mldist
+  Screen log file:               all_cnidops_ALN.fas.log
+
+Date and Time: Thu Oct 28 19:45:47 2021
