@@ -1,0 +1,24 @@
+#The BLAST search of Morbakka genome found genes outside of cnidopsin clade
+#This script removes those for subsequent phylogenetic analyses focused only on opsins
+#and xenopsin outgroups
+
+
+cat Results/Morbakka_GPCR.txt Results/remove_duplicate_trip.txt > Results/2remove.txt
+
+
+
+../scripts/fasta_manip/remove_by_id.py Results/all_cnidops.fas Results/2remove.txt > Results/unique_cnidops.fas
+
+
+
+#Tree with duplicates and non-opsin GPCR removed
+rm Results/unique_cnidops_ALN.fas*
+mafft Results/unique_cnidops.fas > Results/unique_cnidops_ALN.fas
+
+#previous run found JTT+F+R8 to be best-fit model
+#Akaike Information Criterion:           JTT+F+R8
+#Corrected Akaike Information Criterion: JTT+F+R8
+#Bayesian Information Criterion:         JTT+F+R8
+#Best-fit model: JTT+F+R8 chosen according to BIC
+
+iqtree -s Results/unique_cnidops_ALN.fas -m JTT+F+R8 -B 1000 -nt AUTO

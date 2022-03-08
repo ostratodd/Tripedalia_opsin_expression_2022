@@ -1,15 +1,31 @@
 #First cut Xenopsin clade data from Picciani alignment
 #Alignment in all_0512 and xenopsin/cnidopsin clade in Picciani....
 
-../scripts/supercuts.py -p Picciani_Xenopsin -t Picciani\ GTR\ opsin\ --\ xenopsin\ and\ cnidops.new -a all_0512.aln.txt
+#  			-o output directory  -p prefix	     -x treefile	-a alignment file (Tree and alignment From Picciani et al)
+../scripts/supercuts.py -o FILES_Picciani_18 -p Picciani_Xenopsin -t FILES_Picciani_18/Picciani\ GTR\ opsin\ --\ xenopsin\ and\ cnidops.new -a FILES_Picciani_18/all_0512.aln.txt
 
 #remove gaps to re-align
-perl -p -i -e 's/\-//g' Picciani_Xenopsin
+perl -p -i -e 's/\-//g' FILES_Picciani_18/Picciani_Xenopsin
 
-cat MorbakkaBLAST/Morbakka_opsins_uni.fas Picciani_Xenopsin GenBankTrip.fas > all_cnidops.fas
 
-#remove run from last time
-rm all_cnidops_ALN.fas*
+#Now add Morbakka genes from s separate analysis that used blast to identify similar genes (GPCRs)
+cat MorbakkaBLAST/Morbakka_opsins_uni.fas FILES_Picciani_18/Picciani_Xenopsin FILES_Picciani_18/GenBankTrip.fas > Results/all_cnidops.fas
 
-mafft all_cnidops.fas > all_cnidops_ALN.fas
-iqtree -s all_cnidops_ALN.fas  -m JTT+F+R7 -nt AUTO
+#replace spaces in names with underscore. Remove trailing double underscores that were common
+perl -p -i -e 's/ /\_/g' Results/all_cnidops.fas
+perl -p -i -e 's/\_\_/\_/g' Results/all_cnidops.fas
+perl -p -i -e 's/\_\_//g' Results/all_cnidops.fas
+perl -p -i -e 's/\_\n/\n/g' Results/all_cnidops.fas
+
+##remove run from last time to be able to re-run analysis
+rm Results/all_cnidops_ALN.fas*
+
+
+#Best-fit model run selected LG+F+R8
+#All model information printed to Results/all_cnidops_ALN.fas.model.gz
+#CPU time for ModelFinder: 9403.799 seconds (2h:36m:43s)
+#Wall-clock time for ModelFinder: 2822.616 seconds (0h:47m:2s)
+
+
+mafft Results/all_cnidops.fas > Results/all_cnidops_ALN.fas
+iqtree -s Results/all_cnidops_ALN.fas -m LG+F+R8 -nt AUTO

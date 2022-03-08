@@ -1,0 +1,16 @@
+Morbakka_scaffold53.g63.t1
+Morbakka_scaffold53.g77.t1
+Morbakka_scaffold36.g77.t1
+Morbakka_scaffold110.g22.t1
+Morbakka_scaffold207.g15.t1
+Morbakka_scaffold342.g16.t1
+Morbakka_scaffold356.g3.t1
+Morbakka_scaffold618.g3.t1
+Morbakka_scaffold157.g3.t1
+Morbakka_scaffold503.g7.t1
+Morbakka_scaffold872.g2.t1
+Morbakka_scaffold171.g48.t1
+Morbakka_scaffold196.g29.t1
+Morbakka_scaffold129.g13.t1
+Morbakka_scaffold464.g4.t1
+Morbakka_scaffold166.g6.t1

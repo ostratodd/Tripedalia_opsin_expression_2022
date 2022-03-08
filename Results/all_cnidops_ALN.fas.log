@@ -1,40 +1,23 @@
-IQ-TREE multicore version 2.0.3 for Mac OS X 64-bit built Dec 19 2020
+IQ-TREE multicore version 2.0.3 for Mac OS X 64-bit built Apr 26 2020
 Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
 Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
 
 Host:    eemb-micro-room.eemb.ucsb.edu (AVX2, FMA3, 64 GB RAM)
-Command: iqtree -s all_cnidops_ALN.fas -m JTT+F+R7 -nt AUTO
-Seed:    366671 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Thu Oct 28 17:39:09 2021
+Command: iqtree -s Results/all_cnidops_ALN.fas -m LG+F+R8 -nt AUTO
+Seed:    629356 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Mar  7 16:39:55 2022
 Kernel:  AVX+FMA - auto-detect threads (4 CPU cores detected)
 
-Reading alignment file all_cnidops_ALN.fas ... Fasta format detected
-NOTE: Change sequence name 'Tripedalia cystophora AGB67500.1 Kozmik-Opn5; Antibody-Opsin1' -> Tripedalia_cystophora_AGB67500.1
-NOTE: Change sequence name 'Tripedalia cystophora QBL02615.1 Opsin-likeGPCR; Antibody-Opsin2' -> Tripedalia_cystophora_QBL02615.1
-NOTE: Change sequence name 'Tripedalia cystophora AGB67503.1' -> Tripedalia_cystophora_AGB67503.1
-NOTE: Change sequence name 'Tripedalia cystophora AGB67502.1' -> Tripedalia_cystophora_AGB67502.1
-NOTE: Change sequence name 'Tripedalia cystophora AGB67495.1' -> Tripedalia_cystophora_AGB67495.1
-NOTE: Change sequence name 'Tripedalia cystophora QBS47879.1 NielsenLEO' -> Tripedalia_cystophora_QBS47879.1
-NOTE: Change sequence name 'Tripedalia cystophora AHZ63731.1 BieleckiLEO' -> Tripedalia_cystophora_AHZ63731.1
-NOTE: Change sequence name 'Tripedalia cystophora AGB67504.1' -> Tripedalia_cystophora_AGB67504.1
-NOTE: Change sequence name 'Tripedalia cystophora AGB67501.1' -> Tripedalia_cystophora_AGB67501.1
-NOTE: Change sequence name 'Tripedalia cystophora AGB67499.1' -> Tripedalia_cystophora_AGB67499.1
-NOTE: Change sequence name 'Tripedalia cystophora AGB67498.1' -> Tripedalia_cystophora_AGB67498.1
-NOTE: Change sequence name 'Tripedalia cystophora AGB67497.1' -> Tripedalia_cystophora_AGB67497.1
-NOTE: Change sequence name 'Tripedalia cystophora AGB67496.1 KozmikTcop9; Antibody-Opsin3' -> Tripedalia_cystophora_AGB67496.1
-NOTE: Change sequence name 'Tripedalia cystophora AGB67494.1' -> Tripedalia_cystophora_AGB67494.1
-NOTE: Change sequence name 'Tripedalia cystophora AGB67493.1' -> Tripedalia_cystophora_AGB67493.1
-NOTE: Change sequence name 'Tripedalia cystophora AGB67492.1' -> Tripedalia_cystophora_AGB67492.1
-NOTE: Change sequence name 'Tripedalia cystophora AGB67491.1' -> Tripedalia_cystophora_AGB67491.1
-NOTE: Change sequence name 'Tripedalia cystophora AGB67490.1' -> Tripedalia_cystophora_AGB67490.1
-NOTE: Change sequence name 'Tripedalia cystophora AGB67489.1 Picciani-A0A059NTC5;Kozmik-op16' -> Tripedalia_cystophora_AGB67489.1
-NOTE: Change sequence name 'Tripedalia cystophora AGB67488.1' -> Tripedalia_cystophora_AGB67488.1
-NOTE: Change sequence name 'Tripedalia cystophora QBL02613 Antibody-Opsin3' -> Tripedalia_cystophora_QBL02613
-NOTE: Change sequence name 'Tripedalia cystophora QBS47880.1' -> Tripedalia_cystophora_QBS47880.1
-NOTE: Change sequence name 'Tripedalia cystophora QBL02614.1' -> Tripedalia_cystophora_QBL02614.1
+Reading alignment file Results/all_cnidops_ALN.fas ... Fasta format detected
 Alignment most likely contains protein sequences
 Alignment has 291 sequences with 1941 columns, 1223 distinct patterns
 619 parsimony-informative, 362 singleton sites, 960 constant sites
+WARNING: Some sequence names are changed as follows:
+Tripedalia_cystophora_AGB67500.1_Kozmik-Opn5;_Antibody-Opsin1 -> Tripedalia_cystophora_AGB67500.1_Kozmik-Opn5__Antibody-Opsin1
+Tripedalia_cystophora_QBL02615.1_Opsin-likeGPCR;_Antibody-Opsin2 -> Tripedalia_cystophora_QBL02615.1_Opsin-likeGPCR__Antibody-Opsin2
+Tripedalia_cystophora_AGB67496.1_KozmikTcop9;_Antibody-Opsin3 -> Tripedalia_cystophora_AGB67496.1_KozmikTcop9__Antibody-Opsin3
+Tripedalia_cystophora_AGB67489.1_Picciani-A0A059NTC5;Kozmik-op16 -> Tripedalia_cystophora_AGB67489.1_Picciani-A0A059NTC5_Kozmik-op16
+
                                                                          Gap/Ambiguity  Composition  p-value
    1  Morbakka_scaffold393.g4.t1                                                83.36%    failed      3.42%
    2  Morbakka_scaffold36.g49.t1                                                83.10%    passed     12.82%
@@ -84,9 +67,9 @@ Alignment has 291 sequences with 1941 columns, 1223 distinct patterns
   46  Hydra_vulgaris_XP_012555848.1_PREDICTED_opsin3like                        83.98%    failed      0.84%
   47  Hydra_vulgaris_XP_012556650.1_PREDICTED_opsin3like                        83.57%    failed      1.77%
   48  Hydra_vulgaris_XP_012556969.1_PREDICTED_rhodopsinlike                     85.32%    failed      2.06%
-  49  Hydra_vulgaris_XP_012557437.1_PREDICTED_opsin3likepartial_                85.16%    failed      1.05%
+  49  Hydra_vulgaris_XP_012557437.1_PREDICTED_opsin3likepartial                 85.16%    failed      1.05%
   50  Hydra_vulgaris_XP_012557991.1_PREDICTED_opsin3like                        84.34%    failed      1.38%
-  51  Hydra_vulgaris_XP_012559098.1_PREDICTED_pinopsinlikepartial_              73.26%    failed      0.04%
+  51  Hydra_vulgaris_XP_012559098.1_PREDICTED_pinopsinlikepartial               73.26%    failed      0.04%
   52  Hydra_vulgaris_XP_012559708.1_PREDICTED_rhodopsin_G0coupledlike           83.41%    failed      2.85%
   53  Hydra_vulgaris_XP_012560188.1_PREDICTED_rhodopsin_G0coupledlike           83.67%    passed     21.18%
   54  Hydra_vulgaris_XP_012560869.1_PREDICTED_opsin3like                        84.80%    failed      0.75%
@@ -127,9 +110,9 @@ Alignment has 291 sequences with 1941 columns, 1223 distinct patterns
   89  Aurelia_aurita_778                                                        82.38%    failed      2.19%
   90  Aurelia_aurita_804                                                        90.01%    passed     10.60%
   91  Biomphalaria_glabrata_XP_013088307_xenopsin                               69.60%    failed      0.00%
-  92  Brachionus_sp__koreanus_A0A0A7DN75_xenopsin                               84.85%    failed      0.00%
-  93  Brachionus_sp__koreanus_A0A0A7DNH5_xenopsin                               87.17%    passed     48.87%
-  94  Brachionus_sp__koreanus_A0A0A7DNH9_xenopsin                               88.25%    passed      5.97%
+  92  Brachionus_sp_koreanus_A0A0A7DN75_xenopsin                                84.85%    failed      0.00%
+  93  Brachionus_sp_koreanus_A0A0A7DNH5_xenopsin                                87.17%    passed     48.87%
+  94  Brachionus_sp_koreanus_A0A0A7DNH9_xenopsin                                88.25%    passed      5.97%
   95  Bunodosoma_cavernata_2052                                                 90.06%    passed     78.09%
   96  Carybdea_rastonii_BAG80696                                                83.00%    passed      9.62%
   97  Cladonema_radiatum_A9CR18_CropB1                                          82.69%    passed     83.94%
@@ -294,42 +277,42 @@ Alignment has 291 sequences with 1941 columns, 1223 distinct patterns
  256  Tripedalia_cystophora_A0A059NTG8_xenopsin                                 85.27%    passed     43.53%
  257  Tripedalia_cystophora_A0A059NTG9_xenopsin                                 82.90%    passed     86.58%
  258  Tripedalia_cystophora_EU310498_xenopsin                                   83.05%    passed     14.57%
- 259  Tripedalia_cystophora_AGB67500.1                                          83.15%    passed     81.72%
- 260  Tripedalia_cystophora_QBL02615.1                                          85.99%    passed     67.08%
+ 259  Tripedalia_cystophora_AGB67500.1_Kozmik-Opn5__Antibody-Opsin1             83.15%    passed     81.72%
+ 260  Tripedalia_cystophora_QBL02615.1_Opsin-likeGPCR__Antibody-Opsin2          85.99%    passed     67.08%
  261  Tripedalia_cystophora_AGB67503.1                                          82.02%    passed     41.84%
  262  Tripedalia_cystophora_AGB67502.1                                          82.90%    passed     86.58%
  263  Tripedalia_cystophora_AGB67495.1                                          81.04%    passed     55.14%
- 264  Tripedalia_cystophora_QBS47879.1                                          83.00%    passed      7.32%
- 265  Tripedalia_cystophora_AHZ63731.1                                          83.05%    passed      7.60%
+ 264  Tripedalia_cystophora_QBS47879.1_NielsenLEO                               83.00%    passed      7.32%
+ 265  Tripedalia_cystophora_AHZ63731.1_BieleckiLEO                              83.05%    passed      7.60%
  266  Tripedalia_cystophora_AGB67504.1                                          83.72%    passed     11.91%
  267  Tripedalia_cystophora_AGB67501.1                                          83.05%    failed      4.49%
  268  Tripedalia_cystophora_AGB67499.1                                          83.98%    passed     86.98%
  269  Tripedalia_cystophora_AGB67498.1                                          83.57%    passed     41.21%
  270  Tripedalia_cystophora_AGB67497.1                                          85.27%    passed     43.53%
- 271  Tripedalia_cystophora_AGB67496.1                                          83.10%    passed     57.98%
+ 271  Tripedalia_cystophora_AGB67496.1_KozmikTcop9__Antibody-Opsin3             83.10%    passed     57.98%
  272  Tripedalia_cystophora_AGB67494.1                                          83.51%    passed     43.41%
  273  Tripedalia_cystophora_AGB67493.1                                          83.72%    passed     45.46%
  274  Tripedalia_cystophora_AGB67492.1                                          83.00%    passed      7.32%
  275  Tripedalia_cystophora_AGB67491.1                                          83.57%    passed     26.82%
  276  Tripedalia_cystophora_AGB67490.1                                          82.84%    passed     29.53%
- 277  Tripedalia_cystophora_AGB67489.1                                          83.57%    passed     74.51%
+ 277  Tripedalia_cystophora_AGB67489.1_Picciani-A0A059NTC5_Kozmik-op16          83.57%    passed     74.51%
  278  Tripedalia_cystophora_AGB67488.1                                          78.77%    passed     38.20%
- 279  Tripedalia_cystophora_QBL02613                                            84.85%    passed     47.25%
+ 279  Tripedalia_cystophora_QBL02613_Antibody-Opsin3                            84.85%    passed     47.25%
  280  Tripedalia_cystophora_QBS47880.1                                          83.05%    passed     14.57%
  281  Tripedalia_cystophora_QBL02614.1                                          83.15%    passed     81.72%
- 282  Chlytia_haemaspherica_CheOpsin9                                           86.04%    passed     28.00%
- 283  Chlytia_haemaspherica_CheOpsin10                                          86.04%    failed      1.02%
- 284  Chlytia_haemaspherica_CheOpsin1                                           85.27%    passed     24.12%
- 285  Chlytia_haemaspherica_CheOpsin2                                           85.16%    passed     14.94%
- 286  Chlytia_haemaspherica_CheOpsin3                                           85.21%    passed     36.18%
- 287  Chlytia_haemaspherica_CheOpsin4                                           85.63%    passed      5.39%
- 288  Chlytia_haemaspherica_CheOpsin5                                           85.37%    passed     49.71%
- 289  Chlytia_haemaspherica_CheOpsin6                                           84.90%    passed     77.35%
- 290  Chlytia_haemaspherica_CheOpsin7                                           85.27%    passed     19.00%
- 291  Chlytia_haemaspherica_CheOpsin8                                           85.42%    passed     25.45%
+ 282  Clytia_haemaspherica_CheOpsin9                                            86.04%    passed     28.00%
+ 283  Clytia_haemaspherica_CheOpsin10                                           86.04%    failed      1.02%
+ 284  Clytia_haemaspherica_CheOpsin1                                            85.27%    passed     24.12%
+ 285  Clytia_haemaspherica_CheOpsin2                                            85.16%    passed     14.94%
+ 286  Clytia_haemaspherica_CheOpsin3                                            85.21%    passed     36.18%
+ 287  Clytia_haemaspherica_CheOpsin4                                            85.63%    passed      5.39%
+ 288  Clytia_haemaspherica_CheOpsin5                                            85.37%    passed     49.71%
+ 289  Clytia_haemaspherica_CheOpsin6                                            84.90%    passed     77.35%
+ 290  Clytia_haemaspherica_CheOpsin7                                            85.27%    passed     19.00%
+ 291  Clytia_haemaspherica_CheOpsin8                                            85.42%    passed     25.45%
 WARNING: 291 sequences contain more than 50% gaps/ambiguity
 ****  TOTAL                                                                     83.72%  77 sequences failed composition chi2 test (p-value<5%; df=19)
-NOTE: Tripedalia_cystophora_AGB67489.1 is identical to Tripedalia_cystophora_A0A059NTC5_xenopsin but kept for subsequent analysis
+NOTE: Tripedalia_cystophora_AGB67489.1_Picciani-A0A059NTC5_Kozmik-op16 is identical to Tripedalia_cystophora_A0A059NTC5_xenopsin but kept for subsequent analysis
 NOTE: Tripedalia_cystophora_AGB67494.1 is identical to Tripedalia_cystophora_A0A059NTC6_xenopsin but kept for subsequent analysis
 NOTE: Tripedalia_cystophora_AGB67499.1 is identical to Tripedalia_cystophora_A0A059NTC7_xenopsin but kept for subsequent analysis
 NOTE: Tripedalia_cystophora_AGB67504.1 is identical to Tripedalia_cystophora_A0A059NTC8_xenopsin but kept for subsequent analysis
@@ -339,169 +322,125 @@ NOTE: Tripedalia_cystophora_AGB67498.1 is identical to Tripedalia_cystophora_A0A
 NOTE: Tripedalia_cystophora_AGB67503.1 is identical to Tripedalia_cystophora_A0A059NTD4_xenopsin but kept for subsequent analysis
 NOTE: Tripedalia_cystophora_AGB67490.1 is identical to Tripedalia_cystophora_A0A059NTD5_xenopsin but kept for subsequent analysis
 NOTE: Tripedalia_cystophora_AGB67495.1 is identical to Tripedalia_cystophora_A0A059NTD6_xenopsin but kept for subsequent analysis
-NOTE: Tripedalia_cystophora_AGB67500.1 is identical to Tripedalia_cystophora_A0A059NTD7_xenopsin but kept for subsequent analysis
+NOTE: Tripedalia_cystophora_AGB67500.1_Kozmik-Opn5__Antibody-Opsin1 is identical to Tripedalia_cystophora_A0A059NTD7_xenopsin but kept for subsequent analysis
 NOTE: Tripedalia_cystophora_AGB67491.1 is identical to Tripedalia_cystophora_A0A059NTG1_xenopsin but kept for subsequent analysis
-NOTE: Tripedalia_cystophora_AGB67496.1 is identical to Tripedalia_cystophora_A0A059NTG2_xenopsin but kept for subsequent analysis
+NOTE: Tripedalia_cystophora_AGB67496.1_KozmikTcop9__Antibody-Opsin3 is identical to Tripedalia_cystophora_A0A059NTG2_xenopsin but kept for subsequent analysis
 NOTE: Tripedalia_cystophora_AGB67501.1 is identical to Tripedalia_cystophora_A0A059NTG3_xenopsin but kept for subsequent analysis
-NOTE: Tripedalia_cystophora_QBS47879.1 is identical to Tripedalia_cystophora_A0A059NTG7_xenopsin but kept for subsequent analysis
+NOTE: Tripedalia_cystophora_QBS47879.1_NielsenLEO is identical to Tripedalia_cystophora_A0A059NTG7_xenopsin but kept for subsequent analysis
 NOTE: Tripedalia_cystophora_AGB67497.1 is identical to Tripedalia_cystophora_A0A059NTG8_xenopsin but kept for subsequent analysis
 NOTE: Tripedalia_cystophora_AGB67502.1 is identical to Tripedalia_cystophora_A0A059NTG9_xenopsin but kept for subsequent analysis
 NOTE: Tripedalia_cystophora_QBS47880.1 is identical to Tripedalia_cystophora_EU310498_xenopsin but kept for subsequent analysis
 NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
 NOTE: Tripedalia_cystophora_QBL02614.1 (identical to Tripedalia_cystophora_A0A059NTD7_xenopsin) is ignored but added at the end
 NOTE: Tripedalia_cystophora_AGB67492.1 (identical to Tripedalia_cystophora_A0A059NTG7_xenopsin) is ignored but added at the end
-Alignment was printed to all_cnidops_ALN.fas.uniqueseq.phy
+Alignment was printed to Results/all_cnidops_ALN.fas.uniqueseq.phy
 
-For your convenience alignment with unique sequences printed to all_cnidops_ALN.fas.uniqueseq.phy
+For your convenience alignment with unique sequences printed to Results/all_cnidops_ALN.fas.uniqueseq.phy
 
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.186 seconds
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.199 seconds
 
-NOTE: 388 MB RAM (0 GB) is required!
+NOTE: 444 MB RAM (0 GB) is required!
 Measuring multi-threading efficiency up to 4 CPU cores
 3 trees examined
-Threads: 1 / Time: 4.002 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -206613
-Threads: 2 / Time: 2.130 sec / Speedup: 1.879 / Efficiency: 94% / LogL: -206613
-Threads: 3 / Time: 2.018 sec / Speedup: 1.983 / Efficiency: 66% / LogL: -206613
-Threads: 4 / Time: 1.756 sec / Speedup: 2.280 / Efficiency: 57% / LogL: -206613
+Threads: 1 / Time: 4.505 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -204939
+Threads: 2 / Time: 2.383 sec / Speedup: 1.891 / Efficiency: 95% / LogL: -204939
+Threads: 3 / Time: 1.591 sec / Speedup: 2.832 / Efficiency: 94% / LogL: -204939
+Threads: 4 / Time: 1.402 sec / Speedup: 3.213 / Efficiency: 80% / LogL: -204939
 BEST NUMBER OF THREADS: 4
 
 Estimate model parameters (epsilon = 0.100)
-1. Initial log-likelihood: -137762.939
-2. Current log-likelihood: -121792.257
-3. Current log-likelihood: -121657.085
-4. Current log-likelihood: -121656.155
-Optimal log-likelihood: -121656.109
-Site proportion and rates:  (0.015,0.040) (0.040,0.169) (0.043,0.323) (0.075,0.431) (0.180,0.647) (0.283,0.976) (0.365,1.521)
-Parameters optimization took 4 rounds (29.178 sec)
-Computing ML distances based on estimated model parameters... 14.787 sec
+1. Initial log-likelihood: -137746.722
+2. Current log-likelihood: -121577.911
+3. Current log-likelihood: -121417.353
+4. Current log-likelihood: -121414.636
+5. Current log-likelihood: -121413.288
+6. Current log-likelihood: -121412.118
+7. Current log-likelihood: -121410.717
+8. Current log-likelihood: -121409.220
+9. Current log-likelihood: -121407.507
+10. Current log-likelihood: -121405.966
+11. Current log-likelihood: -121404.634
+12. Current log-likelihood: -121403.495
+13. Current log-likelihood: -121402.554
+14. Current log-likelihood: -121401.711
+15. Current log-likelihood: -121400.915
+16. Current log-likelihood: -121400.196
+17. Current log-likelihood: -121399.637
+18. Current log-likelihood: -121399.240
+19. Current log-likelihood: -121398.951
+20. Current log-likelihood: -121398.729
+21. Current log-likelihood: -121398.547
+22. Current log-likelihood: -121398.384
+23. Current log-likelihood: -121398.244
+24. Current log-likelihood: -121398.127
+Optimal log-likelihood: -121398.027
+Site proportion and rates:  (0.016,0.036) (0.041,0.160) (0.065,0.304) (0.119,0.468) (0.203,0.694) (0.174,0.990) (0.319,1.396) (0.062,2.542)
+Parameters optimization took 24 rounds (142.155 sec)
+Computing ML distances based on estimated model parameters... 17.379 sec
 Computing BIONJ tree...
-0.056 seconds
-Log-likelihood of BIONJ tree: -121385.253
+0.049 seconds
+Log-likelihood of BIONJ tree: -121289.640
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
-Generating 98 parsimony trees... 19.042 second
-Computing log-likelihood of 98 initial trees ... 60.691 seconds
-Current best score: -121385.253
+Generating 98 parsimony trees... 19.109 second
+Computing log-likelihood of 98 initial trees ... 44.784 seconds
+Current best score: -121289.640
 
 Do NNI search on 20 best initial trees
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 1: -121058.611
+BETTER TREE FOUND at iteration 1: -121009.970
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 5: -121048.595
-Iteration 10 / LogL: -121059.426 / Time: 0h:5m:34s
-Iteration 20 / LogL: -121070.136 / Time: 0h:8m:0s
+BETTER TREE FOUND at iteration 5: -121009.336
+Iteration 10 / LogL: -121080.703 / Time: 0h:6m:51s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 18: -121002.194
+Iteration 20 / LogL: -121016.618 / Time: 0h:9m:45s
 Finish initializing candidate tree set (20)
-Current best tree score: -121048.595 / CPU time: 426.825
+Current best tree score: -121002.194 / CPU time: 419.313
 Number of iterations: 20
 --------------------------------------------------------------------
 |               OPTIMIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 25: -121043.788
+BETTER TREE FOUND at iteration 22: -120989.480
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 27: -121042.078
-Iteration 30 / LogL: -121173.831 / Time: 0h:10m:51s (0h:36m:18s left)
+BETTER TREE FOUND at iteration 26: -120984.898
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 39: -121039.357
-Iteration 40 / LogL: -121051.680 / Time: 0h:13m:41s (0h:34m:44s left)
-Iteration 50 / LogL: -121056.267 / Time: 0h:16m:21s (0h:29m:42s left)
+BETTER TREE FOUND at iteration 29: -120984.399
+Iteration 30 / LogL: -120989.892 / Time: 0h:12m:27s (0h:42m:29s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 54: -121033.659
+BETTER TREE FOUND at iteration 36: -120984.003
+Iteration 40 / LogL: -120989.643 / Time: 0h:14m:45s (0h:36m:20s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 58: -121032.898
+BETTER TREE FOUND at iteration 45: -120979.939
+Iteration 50 / LogL: -120983.740 / Time: 0h:17m:3s (0h:33m:3s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 60: -121032.729
-Iteration 60 / LogL: -121032.729 / Time: 0h:19m:13s (0h:32m:33s left)
-Iteration 70 / LogL: -121034.326 / Time: 0h:21m:35s (0h:28m:9s left)
+BETTER TREE FOUND at iteration 51: -120979.278
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 71: -121029.968
+BETTER TREE FOUND at iteration 56: -120979.187
+Iteration 60 / LogL: -120980.256 / Time: 0h:19m:35s (0h:31m:53s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 74: -121029.901
+BETTER TREE FOUND at iteration 62: -120974.815
+Iteration 70 / LogL: -120984.417 / Time: 0h:22m:36s (0h:30m:8s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 78: -121028.200
-Iteration 80 / LogL: -121075.505 / Time: 0h:24m:10s (0h:29m:58s left)
+BETTER TREE FOUND at iteration 79: -120971.972
+Iteration 80 / LogL: -120999.015 / Time: 0h:25m:6s (0h:31m:27s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 81: -121026.748
-Iteration 90 / LogL: -121041.012 / Time: 0h:26m:33s (0h:27m:9s left)
+BETTER TREE FOUND at iteration 88: -120970.944
+Iteration 90 / LogL: -120978.421 / Time: 0h:27m:29s (0h:30m:16s left)
+Iteration 100 / LogL: -121063.976 / Time: 0h:29m:42s (0h:26m:24s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 95: -121025.316
-Iteration 100 / LogL: -121038.562 / Time: 0h:29m:0s (0h:27m:49s left)
-Iteration 110 / LogL: -121046.687 / Time: 0h:31m:21s (0h:24m:26s left)
+BETTER TREE FOUND at iteration 108: -120970.456
+Iteration 110 / LogL: -120977.195 / Time: 0h:32m:6s (0h:28m:51s left)
+Iteration 120 / LogL: -120979.736 / Time: 0h:34m:20s (0h:25m:23s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 111: -121024.623
-Iteration 120 / LogL: -121155.557 / Time: 0h:33m:49s (0h:25m:52s left)
-Iteration 130 / LogL: -121030.872 / Time: 0h:36m:17s (0h:22m:47s left)
-Iteration 140 / LogL: -121031.100 / Time: 0h:38m:33s (0h:19m:41s left)
-Iteration 150 / LogL: -121027.464 / Time: 0h:40m:52s (0h:16m:43s left)
+BETTER TREE FOUND at iteration 124: -120970.242
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 154: -121024.261
-Iteration 160 / LogL: -121036.711 / Time: 0h:43m:9s (0h:25m:31s left)
-Iteration 170 / LogL: -121029.291 / Time: 0h:45m:30s (0h:22m:37s left)
-Iteration 180 / LogL: -121031.362 / Time: 0h:47m:51s (0h:19m:47s left)
-Iteration 190 / LogL: -121035.728 / Time: 0h:50m:14s (0h:17m:0s left)
-Iteration 200 / LogL: -121027.475 / Time: 0h:52m:32s (0h:14m:15s left)
-Iteration 210 / LogL: -121034.765 / Time: 0h:54m:51s (0h:11m:32s left)
-Iteration 220 / LogL: -121045.694 / Time: 0h:57m:6s (0h:8m:51s left)
-Iteration 230 / LogL: -121026.342 / Time: 0h:59m:24s (0h:6m:13s left)
+BETTER TREE FOUND at iteration 128: -120969.706
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 231: -121024.134
-Iteration 240 / LogL: -121024.199 / Time: 1h:1m:48s (0h:23m:32s left)
-Iteration 250 / LogL: -121027.951 / Time: 1h:4m:8s (0h:20m:51s left)
-Iteration 260 / LogL: -121032.812 / Time: 1h:6m:29s (0h:18m:13s left)
-Iteration 270 / LogL: -121026.818 / Time: 1h:8m:53s (0h:15m:37s left)
-Iteration 280 / LogL: -121025.896 / Time: 1h:11m:12s (0h:13m:0s left)
-Iteration 290 / LogL: -121040.903 / Time: 1h:13m:32s (0h:10m:26s left)
-Iteration 300 / LogL: -121050.558 / Time: 1h:15m:56s (0h:7m:52s left)
-Iteration 310 / LogL: -121130.438 / Time: 1h:18m:19s (0h:5m:19s left)
-Iteration 320 / LogL: -121026.641 / Time: 1h:20m:39s (0h:2m:46s left)
-Iteration 330 / LogL: -121024.603 / Time: 1h:22m:59s (0h:0m:15s left)
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 332: -121023.705
-Iteration 340 / LogL: -121031.572 / Time: 1h:25m:20s (0h:23m:9s left)
-Iteration 350 / LogL: -121023.935 / Time: 1h:27m:45s (0h:20m:37s left)
-Iteration 360 / LogL: -121026.883 / Time: 1h:30m:5s (0h:18m:4s left)
-Iteration 370 / LogL: -121024.263 / Time: 1h:32m:23s (0h:15m:31s left)
-Iteration 380 / LogL: -121030.781 / Time: 1h:34m:49s (0h:13m:0s left)
-Iteration 390 / LogL: -121024.813 / Time: 1h:37m:12s (0h:10m:29s left)
-Iteration 400 / LogL: -121029.518 / Time: 1h:39m:31s (0h:7m:58s left)
-Iteration 410 / LogL: -121026.093 / Time: 1h:41m:48s (0h:5m:28s left)
-BETTER TREE FOUND at iteration 415: -121023.704
-Iteration 420 / LogL: -121032.980 / Time: 1h:44m:9s (0h:23m:36s left)
-Iteration 430 / LogL: -121027.905 / Time: 1h:46m:29s (0h:21m:5s left)
-Iteration 440 / LogL: -121063.887 / Time: 1h:48m:48s (0h:18m:35s left)
-Iteration 450 / LogL: -121152.766 / Time: 1h:51m:8s (0h:16m:5s left)
-Iteration 460 / LogL: -121031.365 / Time: 1h:53m:24s (0h:13m:35s left)
-Iteration 470 / LogL: -121047.458 / Time: 1h:55m:40s (0h:11m:5s left)
-Iteration 480 / LogL: -121025.134 / Time: 1h:57m:58s (0h:8m:37s left)
-Iteration 490 / LogL: -121025.503 / Time: 2h:0m:15s (0h:6m:8s left)
-Iteration 500 / LogL: -121037.620 / Time: 2h:2m:40s (0h:3m:41s left)
-Iteration 510 / LogL: -121033.724 / Time: 2h:5m:3s (0h:1m:13s left)
-TREE SEARCH COMPLETED AFTER 516 ITERATIONS / Time: 2h:6m:30s
-
---------------------------------------------------------------------
-|                    FINALIZING TREE SEARCH                        |
---------------------------------------------------------------------
-Performs final model parameters optimization
-Estimate model parameters (epsilon = 0.010)
-1. Initial log-likelihood: -121023.704
-2. Current log-likelihood: -121023.694
-Optimal log-likelihood: -121023.689
-Site proportion and rates:  (0.014,0.038) (0.036,0.169) (0.022,0.296) (0.069,0.374) (0.168,0.595) (0.278,0.916) (0.413,1.468)
-Parameters optimization took 2 rounds (7.266 sec)
-BEST SCORE FOUND : -121023.689
-Total tree length: 172.068
-
-Total number of iterations: 516
-CPU time used for tree search: 22311.147 sec (6h:11m:51s)
-Wall-clock time used for tree search: 7537.016 sec (2h:5m:37s)
-Total CPU time used: 22457.121 sec (6h:14m:17s)
-Total wall-clock time used: 7598.016 sec (2h:6m:38s)
-
-Analysis results written to: 
-  IQ-TREE report:                all_cnidops_ALN.fas.iqtree
-  Maximum-likelihood tree:       all_cnidops_ALN.fas.treefile
-  Likelihood distances:          all_cnidops_ALN.fas.mldist
-  Screen log file:               all_cnidops_ALN.fas.log
-
-Date and Time: Thu Oct 28 19:45:47 2021
+BETTER TREE FOUND at iteration 129: -120968.668
+Iteration 130 / LogL: -120969.729 / Time: 0h:36m:53s (0h:28m:18s left)
+Iteration 140 / LogL: -120971.882 / Time: 0h:39m:6s (0h:25m:2s left)
+Iteration 150 / LogL: -120976.648 / Time: 0h:41m:10s (0h:21m:49s left)
+Iteration 160 / LogL: -120978.720 / Time: 0h:43m:21s (0h:18m:49s left)
