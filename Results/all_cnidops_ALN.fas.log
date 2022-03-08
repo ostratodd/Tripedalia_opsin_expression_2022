@@ -444,3 +444,37 @@ Iteration 130 / LogL: -120969.729 / Time: 0h:36m:53s (0h:28m:18s left)
 Iteration 140 / LogL: -120971.882 / Time: 0h:39m:6s (0h:25m:2s left)
 Iteration 150 / LogL: -120976.648 / Time: 0h:41m:10s (0h:21m:49s left)
 Iteration 160 / LogL: -120978.720 / Time: 0h:43m:21s (0h:18m:49s left)
+Iteration 170 / LogL: -120978.956 / Time: 0h:45m:26s (0h:15m:51s left)
+Iteration 180 / LogL: -120970.514 / Time: 0h:47m:31s (0h:13m:0s left)
+Iteration 190 / LogL: -120985.371 / Time: 0h:49m:32s (0h:10m:13s left)
+Iteration 200 / LogL: -120971.905 / Time: 0h:51m:35s (0h:7m:31s left)
+Iteration 210 / LogL: -120974.248 / Time: 0h:53m:41s (0h:4m:52s left)
+Iteration 220 / LogL: -120972.401 / Time: 0h:55m:43s (0h:2m:17s left)
+Iteration 230 / LogL: -120981.127 / Time: 0h:57m:50s (0h:0m:-16s left)
+TREE SEARCH COMPLETED AFTER 230 ITERATIONS / Time: 0h:57m:50s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -120968.668
+Optimal log-likelihood: -120968.667
+Site proportion and rates:  (0.016,0.036) (0.040,0.163) (0.072,0.315) (0.122,0.482) (0.217,0.717) (0.169,1.044) (0.297,1.405) (0.067,2.439)
+Parameters optimization took 1 rounds (1.955 sec)
+BEST SCORE FOUND : -120968.667
+Total tree length: 198.246
+
+Total number of iterations: 230
+CPU time used for tree search: 10679.866 sec (2h:57m:59s)
+Wall-clock time used for tree search: 3303.853 sec (0h:55m:3s)
+Total CPU time used: 11213.133 sec (3h:6m:53s)
+Total wall-clock time used: 3472.516 sec (0h:57m:52s)
+
+Analysis results written to: 
+  IQ-TREE report:                Results/all_cnidops_ALN.fas.iqtree
+  Maximum-likelihood tree:       Results/all_cnidops_ALN.fas.treefile
+  Likelihood distances:          Results/all_cnidops_ALN.fas.mldist
+  Screen log file:               Results/all_cnidops_ALN.fas.log
+
+Date and Time: Mon Mar  7 17:37:48 2022
