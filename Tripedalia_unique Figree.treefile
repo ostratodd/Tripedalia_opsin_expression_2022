@@ -1,0 +1,357 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=255;
+	taxlabels
+	'Acropora_digitifera_XP_015752574.1_PREDICTED_melanopsinAlike'[&!color=#0000ff]
+	'Acropora_digitifera_XP_015753551.1_PREDICTED_melanopsinlike'[&!color=#0000ff]
+	'Acropora_digitifera_XP_015753552.1_PREDICTED_melanopsinlike'[&!color=#0000ff]
+	'Acropora_digitifera_XP_015764657.1_PREDICTED_melanopsinlike'[&!color=#0000ff]
+	'Acropora_digitifera_XP_015775460.1_PREDICTED_melanopsinlike'[&!color=#0000ff]
+	Acropora_palmata_L0ATA4_xenopsin[&!color=#0000ff]
+	Acropora_palmata_L0AUA8_xenopsin[&!color=#0000ff]
+	Aiptasia_pallida_1434[&!color=#0000ff]
+	Aiptasia_pallida_1596[&!color=#0000ff]
+	Aiptasia_pallida_1855[&!color=#0000ff]
+	Aiptasia_pallida_1862[&!color=#0000ff]
+	Alatina_alata_256[&!color=#ff8000]
+	Alatina_alata_260[&!color=#ff8000]
+	Alatina_alata_5200[&!color=#ff8000]
+	Alatina_alata_5205[&!color=#ff8000]
+	Anthopleura_elegantissima_295[&!color=#0000ff]
+	Anthopleura_elegantissima_325[&!color=#0000ff]
+	Anthopleura_elegantissima_353[&!color=#0000ff]
+	Anthopleura_elegantissima_565[&!color=#0000ff]
+	Aurelia_aurita_664
+	Aurelia_aurita_684[&!color=#0000ff]
+	Aurelia_aurita_689
+	Aurelia_aurita_705
+	Aurelia_aurita_707
+	Aurelia_aurita_773
+	Aurelia_aurita_776[&!color=#0000ff]
+	Aurelia_aurita_778[&!color=#0000ff]
+	Aurelia_aurita_804
+	Biomphalaria_glabrata_XP_013088307_xenopsin[&!color=#cccccc]
+	Brachionus_sp_koreanus_A0A0A7DN75_xenopsin[&!color=#cccccc]
+	Brachionus_sp_koreanus_A0A0A7DNH5_xenopsin[&!color=#cccccc]
+	Brachionus_sp_koreanus_A0A0A7DNH9_xenopsin[&!color=#cccccc]
+	Bunodosoma_cavernata_2052[&!color=#0000ff]
+	Carybdea_rastonii_BAG80696[&!color=#ff8000]
+	Cladonema_radiatum_A9CR18_CropB1[&!color=#0000ff]
+	Cladonema_radiatum_A9CR24_CropB4[&!color=#0000ff]
+	Cladonema_radiatum_A9CR26_CropM[&!color=#0000ff]
+	Cladonema_radiatum_A9CR28_CropO[&!color=#0000ff]
+	Cladonema_radiatum_A9CR30_CropC[&!color=#0000ff]
+	Cladonema_radiatum_A9CR32_CropE[&!color=#0000ff]
+	Cladonema_radiatum_A9CR34_CropD[&!color=#0000ff]
+	Cladonema_radiatum_A9CR36_CropH[&!color=#0000ff]
+	Cladonema_radiatum_A9CR37_CropI[&!color=#0000ff]
+	Cladonema_radiatum_A9CR38_CropL[&!color=#0000ff]
+	Cladonema_radiatum_A9CR39_CropF[&!color=#0000ff]
+	Cladonema_radiatum_A9CR40_CropG1[&!color=#0000ff]
+	Cladonema_radiatum_A9CR42_CropG2[&!color=#0000ff]
+	Cladonema_radiatum_A9CR43_CropN1[&!color=#0000ff]
+	Cladonema_radiatum_A9CR48_CropK1[&!color=#0000ff]
+	Cladonema_radiatum_A9CR51_CropK2[&!color=#0000ff]
+	Cladonema_radiatum_A9CR54_CropJ[&!color=#0000ff]
+	Clytia_haemaspherica_CheOpsin1[&!color=#0000ff]
+	Clytia_haemaspherica_CheOpsin10
+	Clytia_haemaspherica_CheOpsin2[&!color=#0000ff]
+	Clytia_haemaspherica_CheOpsin3[&!color=#0000ff]
+	Clytia_haemaspherica_CheOpsin4[&!color=#0000ff]
+	Clytia_haemaspherica_CheOpsin5[&!color=#0000ff]
+	Clytia_haemaspherica_CheOpsin6[&!color=#0000ff]
+	Clytia_haemaspherica_CheOpsin7[&!color=#0000ff]
+	Clytia_haemaspherica_CheOpsin8[&!color=#0000ff]
+	Clytia_haemaspherica_CheOpsin9
+	Crassostrea_gigas_K1P6Y0_xenopsin[&!color=#cccccc]
+	Crassostrea_gigas_K1PW76_xenopsin[&!color=#cccccc]
+	Crassostrea_gigas_K1QCZ3_xenopsin[&!color=#cccccc]
+	Crassostrea_gigas_K1QG76_xenopsin[&!color=#cccccc]
+	Crassostrea_gigas_XP_011412507_xenopsin[&!color=#cccccc]
+	Crassostrea_gigas_XP_011421213_xenopsin[&!color=#cccccc]
+	Craterolophus_convolvulus_5261
+	Favia_lizardensis_875[&!color=#0000ff]
+	Haliclystus_auricula_4910
+	Haliclystus_auricula_4917
+	Hydra_magnipapillata_1090[&!color=#0000ff]
+	Hydra_magnipapillata_1094[&!color=#0000ff]
+	Hydra_magnipapillata_1100[&!color=#0000ff]
+	Hydra_magnipapillata_1101[&!color=#0000ff]
+	Hydra_magnipapillata_1106[&!color=#0000ff]
+	Hydra_magnipapillata_1113[&!color=#0000ff]
+	Hydra_magnipapillata_1115[&!color=#0000ff]
+	Hydra_magnipapillata_1116[&!color=#0000ff]
+	Hydra_magnipapillata_1129[&!color=#0000ff]
+	Hydra_magnipapillata_1135[&!color=#0000ff]
+	Hydra_magnipapillata_1137[&!color=#0000ff]
+	Hydra_oligactis_1085[&!color=#0000ff]
+	Hydra_oligactis_1088[&!color=#0000ff]
+	Hydra_oligactis_1089[&!color=#0000ff]
+	Hydra_vulgaris_1164[&!color=#0000ff]
+	Hydra_vulgaris_1183[&!color=#0000ff]
+	Hydra_vulgaris_1185[&!color=#0000ff]
+	Hydra_vulgaris_1188[&!color=#0000ff]
+	Hydra_vulgaris_1189[&!color=#0000ff]
+	Hydra_vulgaris_1190[&!color=#0000ff]
+	Hydra_vulgaris_1191[&!color=#0000ff]
+	Hydra_vulgaris_1193[&!color=#0000ff]
+	Hydra_vulgaris_1194[&!color=#0000ff]
+	Hydra_vulgaris_1200[&!color=#0000ff]
+	Hydra_vulgaris_1202[&!color=#0000ff]
+	Hydra_vulgaris_1206[&!color=#0000ff]
+	Hydra_vulgaris_1218[&!color=#0000ff]
+	Hydra_vulgaris_1222[&!color=#0000ff]
+	Hydra_vulgaris_1231[&!color=#0000ff]
+	Hydra_vulgaris_1243[&!color=#0000ff]
+	Hydra_vulgaris_F1LIN8_xenopsin[&!color=#0000ff]
+	Hydra_vulgaris_F1LIN9_xenopsin[&!color=#0000ff]
+	Hydra_vulgaris_F1LIP0_xenopsin[&!color=#0000ff]
+	Hydra_vulgaris_F1LIP1_xenopsin[&!color=#0000ff]
+	Hydra_vulgaris_F1LIP2_xenopsin[&!color=#0000ff]
+	Hydra_vulgaris_F1LIP3_xenopsin[&!color=#0000ff]
+	Hydra_vulgaris_F1LIP4_xenopsin[&!color=#0000ff]
+	Hydra_vulgaris_F1LIP5_xenopsin[&!color=#0000ff]
+	'Hydra_vulgaris_XP_002160448.1_PREDICTED_pinopsinlike'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_002163209.2_PREDICTED_longwavesensitive_opsin_1like'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_002163327.1_PREDICTED_melanopsinAlike'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_002163358.2_PREDICTED_mediumwavesensitive_opsin_1like'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_004205844.1_PREDICTED_opsin3like'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_004208213.1_PREDICTED_rhodopsin_G0coupledlike'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_004209180.1_PREDICTED_pinopsinlike'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_012555848.1_PREDICTED_opsin3like'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_012556650.1_PREDICTED_opsin3like'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_012556969.1_PREDICTED_rhodopsinlike'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_012557437.1_PREDICTED_opsin3likepartial'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_012557991.1_PREDICTED_opsin3like'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_012559098.1_PREDICTED_pinopsinlikepartial'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_012559708.1_PREDICTED_rhodopsin_G0coupledlike'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_012560188.1_PREDICTED_rhodopsin_G0coupledlike'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_012560869.1_PREDICTED_opsin3like'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_012561008.1_PREDICTED_rhodopsin_G0coupledlike'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_012561250.1_PREDICTED_opsin3like'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_012561431.1_PREDICTED_opsin3like'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_012561474.1_PREDICTED_opsin3like'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_012561673.1_PREDICTED_parapinopsinlike'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_012561930.1_PREDICTED_opsin3like'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_012562542.1_PREDICTED_opsin3like'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_012562617.1_PREDICTED_opsin3like'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_012562923.1_PREDICTED_opsin3like'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_012563654.1_PREDICTED_rhodopsin_G0coupledlike'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_012563781.1_PREDICTED_rhodopsin_G0coupledlike'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_012563909.1_PREDICTED_parapinopsinlike'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_012564259.1_PREDICTED_opsin3like'[&!color=#0000ff]
+	'Hydra_vulgaris_XP_012564631.1_PREDICTED_opsin3like'[&!color=#0000ff]
+	Hydractinia_symbiolongicarpus_1011[&!color=#0000ff]
+	Hydractinia_symbiolongicarpus_1017[&!color=#0000ff]
+	Idiosepius_paradoxus_A0A0H5ATB0_xenopsin[&!color=#cccccc]
+	Lingula_anatina_XP_013382905_xenopsin[&!color=#cccccc]
+	Lingula_anatina_XP_013397676_xenopsin[&!color=#cccccc]
+	Lingula_anatina_XP_013400870_xenopsin[&!color=#cccccc]
+	Lottia_gigantea_V3ZWI5_xenopsin[&!color=#cccccc]
+	Lucernaria_quadricornis_4943
+	Lucernaria_quadricornis_4944
+	Lucernaria_quadricornis_4948
+	Lucernaria_quadricornis_4949
+	Lucernaria_quadricornis_4955
+	Lucernaria_quadricornis_4959
+	Lymnaea_stagnalis_FX185950_xenopsin[&!color=#cccccc]
+	Lymnaea_stagnalis_FX190223_xenopsin[&!color=#cccccc]
+	Millepora_alcicornis_2441[&!color=#0000ff]
+	Millepora_alcicornis_2446[&!color=#0000ff]
+	Millepora_alcicornis_2454[&!color=#0000ff]
+	'Morbakka_scaffold36.g49.t1'[&!color=#ff8000]
+	'Morbakka_scaffold393.g4.t1'[&!color=#ff8000]
+	Nanomia_bijuga_5645[&!color=#0000ff]
+	Nanomia_bijuga_5646[&!color=#0000ff]
+	Nanomia_bijuga_5648[&!color=#0000ff]
+	Nematostella_vectensis_2484[&!color=#0000ff]
+	Nematostella_vectensis_2485[&!color=#0000ff]
+	Nematostella_vectensis_2488[&!color=#0000ff]
+	Nematostella_vectensis_2560[&!color=#0000ff]
+	Nematostella_vectensis_2561[&!color=#0000ff]
+	Nematostella_vectensis_3116[&!color=#0000ff]
+	Nematostella_vectensis_3117[&!color=#0000ff]
+	Nematostella_vectensis_3118[&!color=#0000ff]
+	Nematostella_vectensis_3119[&!color=#0000ff]
+	Nematostella_vectensis_3260[&!color=#0000ff]
+	Nematostella_vectensis_3289[&!color=#0000ff]
+	Nematostella_vectensis_3291[&!color=#0000ff]
+	Nematostella_vectensis_3292[&!color=#0000ff]
+	Nematostella_vectensis_3293[&!color=#0000ff]
+	Nematostella_vectensis_3417[&!color=#0000ff]
+	Nematostella_vectensis_3463[&!color=#0000ff]
+	Nematostella_vectensis_A9UMW6_xenopsin[&!color=#0000ff]
+	Nematostella_vectensis_A9UMW7_xenopsin[&!color=#0000ff]
+	Nematostella_vectensis_A9UMX0_xenopsin[&!color=#0000ff]
+	Nematostella_vectensis_A9UMX1_xenopsin[&!color=#0000ff]
+	Nematostella_vectensis_A9UMX2_xenopsin[&!color=#0000ff]
+	Nematostella_vectensis_A9UMX3_xenopsin[&!color=#0000ff]
+	Nematostella_vectensis_A9UMX5_xenopsin[&!color=#0000ff]
+	Nematostella_vectensis_A9UMX6_xenopsin[&!color=#0000ff]
+	Nematostella_vectensis_A9UMX7_xenopsin[&!color=#0000ff]
+	'Orbicella_faveolata_XP_020607308.1_melanopsinlike'[&!color=#0000ff]
+	'Orbicella_faveolata_XP_020608729.1_melanopsinlike'[&!color=#0000ff]
+	'Orbicella_faveolata_XP_020610777.1_melanopsinlike'[&!color=#0000ff]
+	'Orbicella_faveolata_XP_020610779.1_melanopsinBlike'[&!color=#0000ff]
+	'Orbicella_faveolata_XP_020610780.1_melanopsinlike'[&!color=#0000ff]
+	'Orbicella_faveolata_XP_020611806.1_melanopsinlike'[&!color=#0000ff]
+	'Orbicella_faveolata_XP_020617662.1_melanopsinAlike'[&!color=#0000ff]
+	'Orbicella_faveolata_XP_020629279.1_melanopsinAlike'[&!color=#0000ff]
+	'Orbicella_faveolata_XP_020629280.1_LOW_QUALITY_PROTEIN_pinopsinlike'[&!color=#0000ff]
+	'Orbicella_faveolata_XP_020632135.1_parapinopsinlike'[&!color=#0000ff]
+	Pocillopora_damicornis_3554[&!color=#0000ff]
+	Pocillopora_damicornis_3623[&!color=#0000ff]
+	Pocillopora_damicornis_3690[&!color=#0000ff]
+	Pocillopora_damicornis_3753[&!color=#0000ff]
+	Podocoryna_carnea_3788[&!color=#0000ff]
+	Podocoryna_carnea_3794[&!color=#0000ff]
+	Podocoryna_carnea_3810[&!color=#0000ff]
+	Podocoryna_carnea_3811[&!color=#0000ff]
+	Podocoryna_carnea_5674[&!color=#0000ff]
+	Podocoryna_carnea_5686[&!color=#0000ff]
+	Podocoryna_carnea_5692[&!color=#0000ff]
+	Podocoryna_carnea_5702[&!color=#0000ff]
+	Podocoryna_carnea_A9CR57_xenopsin[&!color=#0000ff]
+	Podocoryna_carnea_A9CR60_xenopsin[&!color=#0000ff]
+	Porites_astreoides_3875[&!color=#0000ff]
+	Porites_astreoides_3952[&!color=#0000ff]
+	Porites_astreoides_4131[&!color=#0000ff]
+	Porites_astreoides_4183[&!color=#0000ff]
+	Porites_astreoides_4236[&!color=#0000ff]
+	Porites_astreoides_4399[&!color=#0000ff]
+	Porites_astreoides_4429[&!color=#0000ff]
+	Porites_astreoides_4430[&!color=#0000ff]
+	Porites_astreoides_4431[&!color=#0000ff]
+	Protopalythoa_variabilis_4495
+	Renilla_koellikeri_5081[&!color=#0000ff]
+	Renilla_koellikeri_5101[&!color=#0000ff]
+	Renilla_koellikeri_5175[&!color=#0000ff]
+	Rhizotrochus_sp_5841[&!color=#0000ff]
+	Rhopilema_esculentum_4586
+	Rhopilema_esculentum_4587
+	Rhopilema_esculentum_4616
+	Rhopilema_esculentum_4679
+	Stomphia_coccinea_2336[&!color=#0000ff]
+	Stylophora_pistillata_4700[&!color=#0000ff]
+	Stylophora_pistillata_4735[&!color=#0000ff]
+	Terebratalia_transversa_F1D8E5_xenopsin[&!color=#cccccc]
+	Triactis_producta_2428[&!color=#0000ff]
+	Tripedalia_cystophora_A0A059NTC6_xenopsin[&!color=#ff0000]
+	Tripedalia_cystophora_A0A059NTC7_xenopsin[&!color=#ff0000]
+	Tripedalia_cystophora_A0A059NTC8_xenopsin[&!color=#ff0000]
+	Tripedalia_cystophora_A0A059NTD1_xenopsin[&!color=#ff0000]
+	Tripedalia_cystophora_A0A059NTD2_xenopsin[&!color=#ff0000]
+	Tripedalia_cystophora_A0A059NTD3_xenopsin[&!color=#ff0000]
+	Tripedalia_cystophora_A0A059NTD4_xenopsin[&!color=#ff0000]
+	Tripedalia_cystophora_A0A059NTD5_xenopsin[&!color=#ff0000]
+	Tripedalia_cystophora_A0A059NTD6_xenopsin[&!color=#ff0000]
+	Tripedalia_cystophora_A0A059NTG1_xenopsin[&!color=#ff0000]
+	Tripedalia_cystophora_A0A059NTG3_xenopsin[&!color=#ff0000]
+	Tripedalia_cystophora_A0A059NTG8_xenopsin[&!color=#ff0000]
+	Tripedalia_cystophora_A0A059NTG9_xenopsin[&!color=#ff0000]
+	'Tripedalia_cystophora_AGB67489.1_Picciani-A0A059NTC5_Kozmik-op16'[&!color=#ff0000]
+	'Tripedalia_cystophora_AGB67496.1_KozmikTcop9__Antibody-Opsin3'[&!color=#ff0000]
+	'Tripedalia_cystophora_AGB67500.1_Kozmik-Opn5__Antibody-Opsin1'[&!color=#ff0000]
+	'Tripedalia_cystophora_AHZ63731.1_BieleckiLEO'[&!color=#ff0000]
+	Tripedalia_cystophora_EU310498_xenopsin[&!color=#ff0000]
+	Tripedalia_cystophora_QBL02613_Antibody-Opsin3[&!color=#ff0000]
+	'Tripedalia_cystophora_QBL02615.1_Opsin-likeGPCR__Antibody-Opsin2'[&!color=#ff0000]
+	'Tripedalia_cystophora_QBS47879.1_NielsenLEO'[&!color=#ff0000]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('Morbakka_scaffold393.g4.t1':0.281053,((((((((((((((('Morbakka_scaffold36.g49.t1':0.093009,('Tripedalia_cystophora_QBS47879.1_NielsenLEO':1.0E-6,'Tripedalia_cystophora_AHZ63731.1_BieleckiLEO':1.0E-6)[&bootstrap=100]:0.029378)[&bootstrap=100]:0.023371,Carybdea_rastonii_BAG80696:0.03911)[&bootstrap=100]:0.082588,(Alatina_alata_260:2.0E-6,Alatina_alata_5200:0.054462)[&bootstrap=100]:0.028893)[&bootstrap=100]:0.70987,(Aurelia_aurita_689:0.340025,Rhopilema_esculentum_4616:0.236651)[&bootstrap=100]:0.424444)[&bootstrap=54]:0.097563,Aurelia_aurita_773:1.006906)[&bootstrap=93]:0.339336,((Haliclystus_auricula_4917:0.806804,(Lucernaria_quadricornis_4943:0.007967,Lucernaria_quadricornis_4944:0.003352)[&bootstrap=100]:0.900217)[&bootstrap=93]:0.294193,'Tripedalia_cystophora_AGB67500.1_Kozmik-Opn5__Antibody-Opsin1':0.769699)[&bootstrap=92]:0.095406)[&bootstrap=99]:0.195624,(Alatina_alata_256:0.241147,('Tripedalia_cystophora_AGB67496.1_KozmikTcop9__Antibody-Opsin3':1.0E-6,Tripedalia_cystophora_QBL02613_Antibody-Opsin3:0.01328)[&bootstrap=100]:0.133804)[&bootstrap=100]:0.904365)[&bootstrap=99]:0.278879,(((((((((((((((('Hydra_vulgaris_XP_012562617.1_PREDICTED_opsin3like'[&!color=#0000ff]:2.0E-6,Hydra_magnipapillata_1113[&!color=#0000ff]:0.005721)[&bootstrap=100,!color=#0000ff]:0.105128,('Hydra_vulgaris_XP_012556650.1_PREDICTED_opsin3like'[&!color=#0000ff]:0.093868,'Hydra_vulgaris_XP_012557991.1_PREDICTED_opsin3like'[&!color=#0000ff]:0.060571)[&bootstrap=100,!color=#0000ff]:0.125564)[&bootstrap=100,!color=#0000ff]:0.03617,('Hydra_vulgaris_XP_012561930.1_PREDICTED_opsin3like'[&!color=#0000ff]:1.0E-6,Hydra_vulgaris_1191[&!color=#0000ff]:1.0E-6)[&bootstrap=100,!color=#0000ff]:0.147363)[&bootstrap=100,!color=#0000ff]:0.055938,Hydra_oligactis_1089[&!color=#0000ff]:0.330761)[&bootstrap=100,!color=#0000ff]:0.040381,('Hydra_vulgaris_XP_012555848.1_PREDICTED_opsin3like'[&!color=#0000ff]:0.18618,'Hydra_vulgaris_XP_012562542.1_PREDICTED_opsin3like'[&!color=#0000ff]:0.247636)[&bootstrap=100,!color=#0000ff]:0.072797)[&bootstrap=100,!color=#0000ff]:0.099817,'Hydra_vulgaris_XP_012557437.1_PREDICTED_opsin3likepartial'[&!color=#0000ff]:0.267937)[&bootstrap=100,!color=#0000ff]:0.237042,(((('Hydra_vulgaris_XP_002160448.1_PREDICTED_pinopsinlike'[&!color=#0000ff]:0.179762,'Hydra_vulgaris_XP_004209180.1_PREDICTED_pinopsinlike'[&!color=#0000ff]:0.081801)[&bootstrap=100,!color=#0000ff]:0.357964,'Hydra_vulgaris_XP_012562923.1_PREDICTED_opsin3like'[&!color=#0000ff]:0.219847)[&bootstrap=100,!color=#0000ff]:0.135712,(('Hydra_vulgaris_XP_012561250.1_PREDICTED_opsin3like'[&!color=#0000ff]:0.04854,'Hydra_vulgaris_XP_012561431.1_PREDICTED_opsin3like'[&!color=#0000ff]:0.051759)[&bootstrap=100,!color=#0000ff]:0.037977,(Hydra_magnipapillata_1116[&!color=#0000ff]:0.013836,Hydra_vulgaris_F1LIP4_xenopsin[&!color=#0000ff]:0.109757)[&bootstrap=85,!color=#0000ff]:0.063731)[&bootstrap=100,!color=#0000ff]:0.336811)[&bootstrap=99,!color=#0000ff]:0.063559,((((('Hydra_vulgaris_XP_004205844.1_PREDICTED_opsin3like'[&!color=#0000ff]:0.23119,Hydra_magnipapillata_1106[&!color=#0000ff]:2.0E-6)[&bootstrap=98,!color=#0000ff]:0.04836,(('Hydra_vulgaris_XP_012560869.1_PREDICTED_opsin3like'[&!color=#0000ff]:2.0E-6,Hydra_vulgaris_1231[&!color=#0000ff]:0.051535)[&bootstrap=100,!color=#0000ff]:0.144689,Hydra_vulgaris_F1LIP5_xenopsin[&!color=#0000ff]:0.024741)[&bootstrap=100,!color=#0000ff]:0.065164)[&bootstrap=100,!color=#0000ff]:0.204539,'Hydra_vulgaris_XP_012564259.1_PREDICTED_opsin3like'[&!color=#0000ff]:0.448912)[&bootstrap=100,!color=#0000ff]:0.165093,Hydra_vulgaris_F1LIP3_xenopsin[&!color=#0000ff]:0.423346)[&bootstrap=98,!color=#0000ff]:0.050134,'Hydra_vulgaris_XP_012559098.1_PREDICTED_pinopsinlikepartial'[&!color=#0000ff]:0.400501)[&bootstrap=73,!color=#0000ff]:0.041146)[&bootstrap=75,!color=#0000ff]:0.064918)[&bootstrap=100,!color=#0000ff]:0.235712,('Hydra_vulgaris_XP_012559708.1_PREDICTED_rhodopsin_G0coupledlike'[&!color=#0000ff]:0.86288,(Hydra_magnipapillata_1094[&!color=#0000ff]:2.0E-6,Hydra_vulgaris_1189[&!color=#0000ff]:0.010607)[&bootstrap=100,!color=#0000ff]:0.834707)[&bootstrap=92,!color=#0000ff]:0.16959)[&bootstrap=100,!color=#0000ff]:0.223694,('Hydra_vulgaris_XP_012561474.1_PREDICTED_opsin3like'[&!color=#0000ff]:0.004366,Hydra_magnipapillata_1090[&!color=#0000ff]:3.0E-6)[&bootstrap=100,!color=#0000ff]:1.079914)[&bootstrap=100,!color=#0000ff]:0.118784,((((Hydra_vulgaris_F1LIP2_xenopsin[&!color=#0000ff]:0.020583,Hydra_vulgaris_1202[&!color=#0000ff]:0.0064)[&bootstrap=100,!color=#0000ff]:0.171169,'Hydra_vulgaris_XP_004208213.1_PREDICTED_rhodopsin_G0coupledlike'[&!color=#0000ff]:0.379003)[&bootstrap=100,!color=#0000ff]:0.152477,('Hydra_vulgaris_XP_012560188.1_PREDICTED_rhodopsin_G0coupledlike'[&!color=#0000ff]:1.0E-6,Hydra_magnipapillata_1100[&!color=#0000ff]:1.0E-6)[&bootstrap=100,!color=#0000ff]:0.193363)[&bootstrap=100,!color=#0000ff]:0.160891,('Hydra_vulgaris_XP_012556969.1_PREDICTED_rhodopsinlike'[&!color=#0000ff]:0.284475,(((('Hydra_vulgaris_XP_012561673.1_PREDICTED_parapinopsinlike'[&!color=#0000ff]:0.081736,'Hydra_vulgaris_XP_012563654.1_PREDICTED_rhodopsin_G0coupledlike'[&!color=#0000ff]:0.108086)[&bootstrap=100,!color=#0000ff]:0.041199,Hydra_vulgaris_F1LIP1_xenopsin[&!color=#0000ff]:0.116896)[&bootstrap=100,!color=#0000ff]:0.089669,'Hydra_vulgaris_XP_012563909.1_PREDICTED_parapinopsinlike'[&!color=#0000ff]:0.106638)[&bootstrap=100,!color=#0000ff]:0.059275,'Hydra_vulgaris_XP_012563781.1_PREDICTED_rhodopsin_G0coupledlike'[&!color=#0000ff]:0.170224)[&bootstrap=100,!color=#0000ff]:0.311025)[&bootstrap=100,!color=#0000ff]:0.161061)[&bootstrap=100,!color=#0000ff]:0.535614)[&bootstrap=99,!color=#0000ff]:0.251864,(((((('Hydra_vulgaris_XP_012561008.1_PREDICTED_rhodopsin_G0coupledlike'[&!color=#0000ff]:1.0E-6,Hydra_vulgaris_1193[&!color=#0000ff]:1.0E-6)[&bootstrap=100,!color=#0000ff]:0.027492,Hydra_vulgaris_1188[&!color=#0000ff]:0.012505)[&bootstrap=100,!color=#0000ff]:0.055234,Hydra_magnipapillata_1129[&!color=#0000ff]:2.0E-6)[&bootstrap=100,!color=#0000ff]:0.064591,'Hydra_vulgaris_XP_012564631.1_PREDICTED_opsin3like'[&!color=#0000ff]:0.13665)[&bootstrap=60,!color=#0000ff]:0.028842,Hydra_vulgaris_1194[&!color=#0000ff]:3.0E-6)[&bootstrap=60,!color=#0000ff]:0.014301,Hydra_vulgaris_1164[&!color=#0000ff]:2.0E-6)[&bootstrap=100,!color=#0000ff]:1.187324)[&bootstrap=96,!color=#0000ff]:0.102366,Millepora_alcicornis_2446[&!color=#0000ff]:1.166434)[&bootstrap=98,!color=#0000ff]:0.196587,Clytia_haemaspherica_CheOpsin4[&!color=#0000ff]:1.902026)[&bootstrap=97,!color=#0000ff]:0.283266,(((Hydra_magnipapillata_1101[&!color=#0000ff]:0.558135,(((Hydra_magnipapillata_1137[&!color=#0000ff]:0.281888,Hydra_vulgaris_1218[&!color=#0000ff]:0.206709)[&bootstrap=93,!color=#0000ff]:0.059053,(Hydra_oligactis_1085[&!color=#0000ff]:0.177362,(Hydra_vulgaris_1183[&!color=#0000ff]:2.0E-6,Hydra_vulgaris_1222[&!color=#0000ff]:0.005001)[&bootstrap=100,!color=#0000ff]:0.074484)[&bootstrap=100,!color=#0000ff]:0.106617)[&bootstrap=99,!color=#0000ff]:0.200384,Hydra_oligactis_1088[&!color=#0000ff]:0.720968)[&bootstrap=86,!color=#0000ff]:0.1095)[&bootstrap=100,!color=#0000ff]:0.866955,Clytia_haemaspherica_CheOpsin2[&!color=#0000ff]:1.719269)[&bootstrap=87,!color=#0000ff]:0.358811,(((((Podocoryna_carnea_3788[&!color=#0000ff]:0.006628,Podocoryna_carnea_3794[&!color=#0000ff]:1.0E-6)[&bootstrap=100,!color=#0000ff]:0.010563,Podocoryna_carnea_5686[&!color=#0000ff]:0.009342)[&bootstrap=99,!color=#0000ff]:0.010161,(Podocoryna_carnea_5674[&!color=#0000ff]:0.006603,Podocoryna_carnea_5692[&!color=#0000ff]:1.0E-6)[&bootstrap=100,!color=#0000ff]:0.003648)[&bootstrap=98,!color=#0000ff]:0.014021,Podocoryna_carnea_3811[&!color=#0000ff]:0.013638)[&bootstrap=98,!color=#0000ff]:0.123764,Podocoryna_carnea_A9CR57_xenopsin[&!color=#0000ff]:0.069595)[&bootstrap=100,!color=#0000ff]:1.11135)[&bootstrap=77,!color=#0000ff]:0.342878)[&bootstrap=79,!color=#0000ff]:0.440859,(((((((('Hydra_vulgaris_XP_002163209.2_PREDICTED_longwavesensitive_opsin_1like'[&!color=#0000ff]:3.0E-6,Hydra_vulgaris_1200[&!color=#0000ff]:1.0E-6)[&bootstrap=100,!color=#0000ff]:0.20551,'Hydra_vulgaris_XP_002163327.1_PREDICTED_melanopsinAlike'[&!color=#0000ff]:0.452101)[&bootstrap=96,!color=#0000ff]:0.040792,((('Hydra_vulgaris_XP_002163358.2_PREDICTED_mediumwavesensitive_opsin_1like'[&!color=#0000ff]:0.40591,Hydra_vulgaris_F1LIP0_xenopsin[&!color=#0000ff]:0.818414)[&bootstrap=88,!color=#0000ff]:0.021994,(Hydra_vulgaris_1206[&!color=#0000ff]:1.0E-6,Hydra_vulgaris_F1LIN8_xenopsin[&!color=#0000ff]:1.0E-6)[&bootstrap=100,!color=#0000ff]:0.350682)[&bootstrap=85,!color=#0000ff]:0.06747,((Hydra_magnipapillata_1135[&!color=#0000ff]:1.0E-6,Hydra_vulgaris_F1LIN9_xenopsin[&!color=#0000ff]:1.0E-6)[&bootstrap=52,!color=#0000ff]:1.0E-6,Hydra_vulgaris_1243[&!color=#0000ff]:0.003687)[&bootstrap=100,!color=#0000ff]:0.321093)[&bootstrap=80,!color=#0000ff]:0.040453)[&bootstrap=100,!color=#0000ff]:0.684473,((((((Cladonema_radiatum_A9CR30_CropC[&!color=#0000ff]:0.255868,(Cladonema_radiatum_A9CR32_CropE[&!color=#0000ff]:0.287529,((Cladonema_radiatum_A9CR34_CropD[&!color=#0000ff]:0.132507,Cladonema_radiatum_A9CR36_CropH[&!color=#0000ff]:0.1432)[&bootstrap=100,!color=#0000ff]:0.052191,Cladonema_radiatum_A9CR37_CropI[&!color=#0000ff]:0.180089)[&bootstrap=100,!color=#0000ff]:0.310054)[&bootstrap=90,!color=#0000ff]:0.07107)[&bootstrap=100,!color=#0000ff]:0.07527,Cladonema_radiatum_A9CR38_CropL[&!color=#0000ff]:0.241366)[&bootstrap=100,!color=#0000ff]:0.33111,Cladonema_radiatum_A9CR39_CropF[&!color=#0000ff]:0.296093)[&bootstrap=100,!color=#0000ff]:0.510516,((Cladonema_radiatum_A9CR40_CropG1[&!color=#0000ff]:0.004208,Cladonema_radiatum_A9CR42_CropG2[&!color=#0000ff]:1.0E-6)[&bootstrap=100,!color=#0000ff]:0.201151,Cladonema_radiatum_A9CR43_CropN1[&!color=#0000ff]:0.227441)[&bootstrap=100,!color=#0000ff]:0.149941)[&bootstrap=100,!color=#0000ff]:0.211783,(Cladonema_radiatum_A9CR48_CropK1[&!color=#0000ff]:2.0E-6,Cladonema_radiatum_A9CR51_CropK2[&!color=#0000ff]:0.020611)[&bootstrap=100,!color=#0000ff]:0.864954)[&bootstrap=100,!color=#0000ff]:0.08913,Cladonema_radiatum_A9CR54_CropJ[&!color=#0000ff]:0.48629)[&bootstrap=100,!color=#0000ff]:0.357636)[&bootstrap=100,!color=#0000ff]:0.294358,((Nanomia_bijuga_5645[&!color=#0000ff]:0.549688,Nanomia_bijuga_5646[&!color=#0000ff]:0.424197)[&bootstrap=92,!color=#0000ff]:0.150978,Nanomia_bijuga_5648[&!color=#0000ff]:0.790245)[&bootstrap=100,!color=#0000ff]:0.777054)[&bootstrap=86,!color=#0000ff]:0.087425,(Podocoryna_carnea_A9CR60_xenopsin[&!color=#0000ff]:1.501609,((Clytia_haemaspherica_CheOpsin1[&!color=#0000ff]:1.286384,(Clytia_haemaspherica_CheOpsin5[&!color=#0000ff]:0.746727,Clytia_haemaspherica_CheOpsin7[&!color=#0000ff]:0.95509)[&bootstrap=95,!color=#0000ff]:0.0528)[&bootstrap=100,!color=#0000ff]:0.300422,Clytia_haemaspherica_CheOpsin3[&!color=#0000ff]:1.565868)[&bootstrap=93,!color=#0000ff]:0.092389)[&bootstrap=85,!color=#0000ff]:0.090719)[&bootstrap=93,!color=#0000ff]:0.082062,((Cladonema_radiatum_A9CR18_CropB1[&!color=#0000ff]:0.085775,Cladonema_radiatum_A9CR24_CropB4[&!color=#0000ff]:0.061646)[&bootstrap=100,!color=#0000ff]:1.170613,(Cladonema_radiatum_A9CR26_CropM[&!color=#0000ff]:0.361471,Cladonema_radiatum_A9CR28_CropO[&!color=#0000ff]:0.362855)[&bootstrap=100,!color=#0000ff]:0.784272)[&bootstrap=100,!color=#0000ff]:0.576817)[&bootstrap=87,!color=#0000ff]:0.120192,(Millepora_alcicornis_2441[&!color=#0000ff]:0.167315,Millepora_alcicornis_2454[&!color=#0000ff]:0.439675)[&bootstrap=100,!color=#0000ff]:2.055363)[&bootstrap=78,!color=#0000ff]:0.030897)[&bootstrap=62,!color=#0000ff]:0.16705,((Aurelia_aurita_684[&!color=#0000ff]:1.401135,Clytia_haemaspherica_CheOpsin8[&!color=#0000ff]:2.030879)[&bootstrap=70,!color=#0000ff]:0.471178,(((Aurelia_aurita_776[&!color=#0000ff]:0.006796,Aurelia_aurita_778[&!color=#0000ff]:2.0E-6)[&bootstrap=100,!color=#0000ff]:1.649193,Clytia_haemaspherica_CheOpsin6[&!color=#0000ff]:1.381162)[&bootstrap=41,!color=#0000ff]:0.085744,(((Hydra_magnipapillata_1115[&!color=#0000ff]:0.006348,Hydra_vulgaris_1190[&!color=#0000ff]:0.006307)[&bootstrap=98,!color=#0000ff]:0.022296,Hydra_vulgaris_1185[&!color=#0000ff]:0.003418)[&bootstrap=100,!color=#0000ff]:1.464427,(Hydractinia_symbiolongicarpus_1011[&!color=#0000ff]:1.62986,(Hydractinia_symbiolongicarpus_1017[&!color=#0000ff]:0.435111,(Podocoryna_carnea_3810[&!color=#0000ff]:1.0E-6,Podocoryna_carnea_5702[&!color=#0000ff]:1.0E-6)[&bootstrap=100,!color=#0000ff]:0.394452)[&bootstrap=100,!color=#0000ff]:0.402717)[&bootstrap=59,!color=#0000ff]:0.264626)[&bootstrap=100,!color=#0000ff]:1.040013)[&bootstrap=31,!color=#0000ff]:0.105654)[&bootstrap=58,!color=#0000ff]:0.157652)[&bootstrap=73,!color=#0000ff]:0.0738)[&bootstrap=81]:0.145627,Protopalythoa_variabilis_4495:1.647603)[&bootstrap=73]:0.120037,((((((Nematostella_vectensis_A9UMX1_xenopsin[&!color=#0000ff]:0.746459,(Nematostella_vectensis_3260[&!color=#0000ff]:1.0E-6,Nematostella_vectensis_A9UMX7_xenopsin[&!color=#0000ff]:0.004231)[&bootstrap=100,!color=#0000ff]:0.745148)[&bootstrap=100,!color=#0000ff]:0.516359,((((Aiptasia_pallida_1434[&!color=#0000ff]:0.268609,Triactis_producta_2428[&!color=#0000ff]:0.13773)[&bootstrap=100,!color=#0000ff]:0.679141,((Aiptasia_pallida_1596[&!color=#0000ff]:0.477194,((Anthopleura_elegantissima_325[&!color=#0000ff]:1.0E-6,Anthopleura_elegantissima_565[&!color=#0000ff]:1.0E-6)[&bootstrap=100,!color=#0000ff]:0.107835,Bunodosoma_cavernata_2052[&!color=#0000ff]:0.136542)[&bootstrap=100,!color=#0000ff]:0.205793)[&bootstrap=98,!color=#0000ff]:0.136011,Anthopleura_elegantissima_295[&!color=#0000ff]:0.570924)[&bootstrap=94,!color=#0000ff]:0.086513)[&bootstrap=95,!color=#0000ff]:0.104464,(Aiptasia_pallida_1855[&!color=#0000ff]:0.839733,Aiptasia_pallida_1862[&!color=#0000ff]:0.914413)[&bootstrap=90,!color=#0000ff]:0.165492)[&bootstrap=96,!color=#0000ff]:0.140488,(((Nematostella_vectensis_2484[&!color=#0000ff]:1.0E-6,Nematostella_vectensis_3417[&!color=#0000ff]:0.003113)[&bootstrap=98,!color=#0000ff]:0.004738,(Nematostella_vectensis_2485[&!color=#0000ff]:1.0E-6,Nematostella_vectensis_A9UMX3_xenopsin[&!color=#0000ff]:2.0E-6)[&bootstrap=100,!color=#0000ff]:0.011952)[&bootstrap=100,!color=#0000ff]:0.510505,(((Nematostella_vectensis_2560[&!color=#0000ff]:3.0E-6,((Nematostella_vectensis_3289[&!color=#0000ff]:0.007639,((Nematostella_vectensis_3292[&!color=#0000ff]:0.025062,Nematostella_vectensis_A9UMX5_xenopsin[&!color=#0000ff]:1.0E-6)[&bootstrap=95,!color=#0000ff]:0.084218,Nematostella_vectensis_3293[&!color=#0000ff]:3.0E-6)[&bootstrap=86,!color=#0000ff]:0.031688)[&bootstrap=78,!color=#0000ff]:0.002719,Nematostella_vectensis_3291[&!color=#0000ff]:0.038416)[&bootstrap=78,!color=#0000ff]:0.008004)[&bootstrap=78,!color=#0000ff]:0.010411,Nematostella_vectensis_2561[&!color=#0000ff]:0.017448)[&bootstrap=100,!color=#0000ff]:0.527509,Nematostella_vectensis_A9UMX6_xenopsin[&!color=#0000ff]:1.059755)[&bootstrap=98,!color=#0000ff]:0.253963)[&bootstrap=99,!color=#0000ff]:0.16669)[&bootstrap=96,!color=#0000ff]:0.10856)[&bootstrap=97,!color=#0000ff]:0.193952,((Nematostella_vectensis_A9UMX2_xenopsin[&!color=#0000ff]:3.0E-6,Nematostella_vectensis_2488[&!color=#0000ff]:0.005169)[&bootstrap=100,!color=#0000ff]:1.089207,((('Orbicella_faveolata_XP_020607308.1_melanopsinlike'[&!color=#0000ff]:0.193027,Pocillopora_damicornis_3690[&!color=#0000ff]:0.351393)[&bootstrap=100,!color=#0000ff]:0.063236,('Acropora_digitifera_XP_015764657.1_PREDICTED_melanopsinlike'[&!color=#0000ff]:0.388426,Porites_astreoides_4183[&!color=#0000ff]:0.317619)[&bootstrap=100,!color=#0000ff]:0.041642)[&bootstrap=100,!color=#0000ff]:0.471142,((('Orbicella_faveolata_XP_020608729.1_melanopsinlike'[&!color=#0000ff]:0.334146,(('Acropora_digitifera_XP_015775460.1_PREDICTED_melanopsinlike'[&!color=#0000ff]:0.4884,Pocillopora_damicornis_3623[&!color=#0000ff]:0.528188)[&bootstrap=37,!color=#0000ff]:0.08706,Porites_astreoides_3952[&!color=#0000ff]:0.394923)[&bootstrap=36,!color=#0000ff]:0.038993)[&bootstrap=77,!color=#0000ff]:0.143647,(Pocillopora_damicornis_3753[&!color=#0000ff]:0.105691,Stylophora_pistillata_4735[&!color=#0000ff]:0.117787)[&bootstrap=100,!color=#0000ff]:0.165243)[&bootstrap=58,!color=#0000ff]:0.061053,'Orbicella_faveolata_XP_020611806.1_melanopsinlike'[&!color=#0000ff]:0.321562)[&bootstrap=100,!color=#0000ff]:0.540764)[&bootstrap=99,!color=#0000ff]:0.119005)[&bootstrap=87,!color=#0000ff]:0.060241)[&bootstrap=99,!color=#0000ff]:0.162676,Acropora_palmata_L0AUA8_xenopsin[&!color=#0000ff]:1.647187)[&bootstrap=91,!color=#0000ff]:0.203155,((((Nematostella_vectensis_A9UMX0_xenopsin[&!color=#0000ff]:0.570949,((((Nematostella_vectensis_3116[&!color=#0000ff]:0.007473,Nematostella_vectensis_3119[&!color=#0000ff]:3.0E-6)[&bootstrap=99,!color=#0000ff]:0.030518,(Nematostella_vectensis_3118[&!color=#0000ff]:1.0E-6,Nematostella_vectensis_A9UMW7_xenopsin[&!color=#0000ff]:0.007396)[&bootstrap=81,!color=#0000ff]:3.0E-6)[&bootstrap=72,!color=#0000ff]:0.007398,Nematostella_vectensis_3117[&!color=#0000ff]:2.0E-6)[&bootstrap=100,!color=#0000ff]:0.88193,(Nematostella_vectensis_3463[&!color=#0000ff]:1.0E-6,Nematostella_vectensis_A9UMW6_xenopsin[&!color=#0000ff]:1.0E-6)[&bootstrap=100,!color=#0000ff]:0.632047)[&bootstrap=88,!color=#0000ff]:0.123985)[&bootstrap=100,!color=#0000ff]:0.247075,(Anthopleura_elegantissima_353[&!color=#0000ff]:0.365572,Stomphia_coccinea_2336[&!color=#0000ff]:0.395281)[&bootstrap=100,!color=#0000ff]:0.259582)[&bootstrap=99,!color=#0000ff]:0.259528,((('Orbicella_faveolata_XP_020610777.1_melanopsinlike'[&!color=#0000ff]:0.073366,'Orbicella_faveolata_XP_020610779.1_melanopsinBlike'[&!color=#0000ff]:0.026865)[&bootstrap=100,!color=#0000ff]:0.097781,'Orbicella_faveolata_XP_020610780.1_melanopsinlike'[&!color=#0000ff]:0.124387)[&bootstrap=100,!color=#0000ff]:0.218634,'Orbicella_faveolata_XP_020617662.1_melanopsinAlike'[&!color=#0000ff]:0.208425)[&bootstrap=100,!color=#0000ff]:0.660996)[&bootstrap=100,!color=#0000ff]:0.80201,((('Orbicella_faveolata_XP_020629279.1_melanopsinAlike'[&!color=#0000ff]:0.307291,Porites_astreoides_4131[&!color=#0000ff]:0.413664)[&bootstrap=99,!color=#0000ff]:0.084148,('Orbicella_faveolata_XP_020629280.1_LOW_QUALITY_PROTEIN_pinopsinlike'[&!color=#0000ff]:0.264912,(('Acropora_digitifera_XP_015752574.1_PREDICTED_melanopsinAlike'[&!color=#0000ff]:0.020041,Acropora_palmata_L0ATA4_xenopsin[&!color=#0000ff]:0.007197)[&bootstrap=100,!color=#0000ff]:0.300341,(((Porites_astreoides_4429[&!color=#0000ff]:0.113772,Porites_astreoides_4431[&!color=#0000ff]:1.0E-6)[&bootstrap=77,!color=#0000ff]:0.082125,Porites_astreoides_4430[&!color=#0000ff]:0.113396)[&bootstrap=97,!color=#0000ff]:0.120701,Rhizotrochus_sp_5841[&!color=#0000ff]:0.164423)[&bootstrap=97,!color=#0000ff]:0.119851)[&bootstrap=88,!color=#0000ff]:0.092457)[&bootstrap=88,!color=#0000ff]:0.064864)[&bootstrap=100,!color=#0000ff]:0.502984,((((('Orbicella_faveolata_XP_020632135.1_parapinopsinlike'[&!color=#0000ff]:0.050571,Favia_lizardensis_875[&!color=#0000ff]:0.11542)[&bootstrap=100,!color=#0000ff]:0.141321,(Pocillopora_damicornis_3554[&!color=#0000ff]:0.087672,Stylophora_pistillata_4700[&!color=#0000ff]:0.147348)[&bootstrap=100,!color=#0000ff]:0.306725)[&bootstrap=100,!color=#0000ff]:0.112861,Porites_astreoides_4399[&!color=#0000ff]:0.682908)[&bootstrap=97,!color=#0000ff]:0.104663,(Porites_astreoides_3875[&!color=#0000ff]:0.25397,Porites_astreoides_4236[&!color=#0000ff]:0.217181)[&bootstrap=100,!color=#0000ff]:0.176156)[&bootstrap=95,!color=#0000ff]:0.092273,('Acropora_digitifera_XP_015753551.1_PREDICTED_melanopsinlike'[&!color=#0000ff]:0.006145,'Acropora_digitifera_XP_015753552.1_PREDICTED_melanopsinlike'[&!color=#0000ff]:0.03103)[&bootstrap=100,!color=#0000ff]:0.509743)[&bootstrap=100,!color=#0000ff]:0.400036)[&bootstrap=100,!color=#0000ff]:0.262371)[&bootstrap=84,!color=#0000ff]:0.202783)[&bootstrap=68,!color=#0000ff]:0.068193,(Renilla_koellikeri_5081[&!color=#0000ff]:1.178914,(Renilla_koellikeri_5101[&!color=#0000ff]:1.149228,Renilla_koellikeri_5175[&!color=#0000ff]:1.049646)[&bootstrap=99,!color=#0000ff]:0.26489)[&bootstrap=96,!color=#0000ff]:0.453291)[&bootstrap=77,!color=#0000ff]:0.088215)[&bootstrap=69]:0.093559,((((Aurelia_aurita_664:0.502232,Aurelia_aurita_705:0.699704)[&bootstrap=100]:1.109011,Tripedalia_cystophora_A0A059NTD1_xenopsin:1.086336)[&bootstrap=83]:0.273949,((((Aurelia_aurita_707:0.606881,(Rhopilema_esculentum_4586:2.0E-6,Rhopilema_esculentum_4587:0.010669)[&bootstrap=100]:0.733437)[&bootstrap=100]:0.785629,Haliclystus_auricula_4910:1.773596)[&bootstrap=99]:0.328259,(Lucernaria_quadricornis_4955:0.41501,Lucernaria_quadricornis_4959:0.569407)[&bootstrap=100]:1.056264)[&bootstrap=82]:0.187033,((((Craterolophus_convolvulus_5261:0.46805,(Lucernaria_quadricornis_4948:2.0E-6,Lucernaria_quadricornis_4949:0.004834)[&bootstrap=100]:0.600782)[&bootstrap=100]:0.737348,'Tripedalia_cystophora_AGB67489.1_Picciani-A0A059NTC5_Kozmik-op16':1.176115)[&bootstrap=97]:0.268933,(Tripedalia_cystophora_A0A059NTD2_xenopsin:0.757371,(Tripedalia_cystophora_A0A059NTD5_xenopsin:0.73232,Tripedalia_cystophora_A0A059NTG8_xenopsin:0.597343)[&bootstrap=100]:0.14351)[&bootstrap=100]:0.639835)[&bootstrap=82]:0.092395,((((Tripedalia_cystophora_A0A059NTD4_xenopsin:0.551349,'Tripedalia_cystophora_QBL02615.1_Opsin-likeGPCR__Antibody-Opsin2':0.370883)[&bootstrap=100]:0.192692,Tripedalia_cystophora_A0A059NTD6_xenopsin:1.055494)[&bootstrap=55]:0.098866,Tripedalia_cystophora_A0A059NTG9_xenopsin:0.938878)[&bootstrap=100]:0.538622,Tripedalia_cystophora_A0A059NTG3_xenopsin:0.808765)[&bootstrap=99]:0.233015)[&bootstrap=83]:0.128703)[&bootstrap=66]:0.080685)[&bootstrap=100]:0.312968,((((((((Biomphalaria_glabrata_XP_013088307_xenopsin[&!color=#cccccc]:0.351979,Lymnaea_stagnalis_FX185950_xenopsin[&!color=#cccccc]:0.371782)[&bootstrap=100,!color=#cccccc]:0.918806,(Lottia_gigantea_V3ZWI5_xenopsin[&!color=#cccccc]:0.454928,Lymnaea_stagnalis_FX190223_xenopsin[&!color=#cccccc]:0.797267)[&bootstrap=99,!color=#cccccc]:0.098198)[&bootstrap=91,!color=#cccccc]:0.129058,((Crassostrea_gigas_K1P6Y0_xenopsin[&!color=#cccccc]:1.0E-6,Crassostrea_gigas_XP_011412507_xenopsin[&!color=#cccccc]:1.0E-6)[&bootstrap=100,!color=#cccccc]:0.447568,Crassostrea_gigas_K1QCZ3_xenopsin[&!color=#cccccc]:0.271703)[&bootstrap=100,!color=#cccccc]:0.642049)[&bootstrap=90,!color=#cccccc]:0.125834,Lingula_anatina_XP_013382905_xenopsin[&!color=#cccccc]:0.830507)[&bootstrap=87,!color=#cccccc]:0.135943,((Brachionus_sp_koreanus_A0A0A7DN75_xenopsin[&!color=#cccccc]:0.715889,Brachionus_sp_koreanus_A0A0A7DNH5_xenopsin[&!color=#cccccc]:0.632348)[&bootstrap=99,!color=#cccccc]:0.169607,Brachionus_sp_koreanus_A0A0A7DNH9_xenopsin[&!color=#cccccc]:0.762096)[&bootstrap=100,!color=#cccccc]:0.918825)[&bootstrap=62,!color=#cccccc]:0.050609,(Lingula_anatina_XP_013400870_xenopsin[&!color=#cccccc]:1.030512,Terebratalia_transversa_F1D8E5_xenopsin[&!color=#cccccc]:0.736686)[&bootstrap=90,!color=#cccccc]:0.106055)[&bootstrap=88,!color=#cccccc]:0.2021,Lingula_anatina_XP_013397676_xenopsin[&!color=#cccccc]:1.247303)[&bootstrap=74,!color=#cccccc]:0.045089,((Crassostrea_gigas_K1PW76_xenopsin[&!color=#cccccc]:0.492452,Crassostrea_gigas_K1QG76_xenopsin[&!color=#cccccc]:0.433337)[&bootstrap=100,!color=#cccccc]:1.303393,(Crassostrea_gigas_XP_011421213_xenopsin[&!color=#cccccc]:1.298735,Idiosepius_paradoxus_A0A0H5ATB0_xenopsin[&!color=#cccccc]:0.844403)[&bootstrap=94,!color=#cccccc]:0.288715)[&bootstrap=87,!color=#cccccc]:0.107047)[&bootstrap=99,!color=#cccccc]:0.264856)[&bootstrap=88]:0.056994)[&bootstrap=78]:0.232236,(Clytia_haemaspherica_CheOpsin9:0.540496,Clytia_haemaspherica_CheOpsin10:0.345139)[&bootstrap=100]:2.431514)[&bootstrap=86]:0.189592,((Alatina_alata_5205:0.837932,Tripedalia_cystophora_A0A059NTG1_xenopsin:0.994087)[&bootstrap=100]:0.403724,(Aurelia_aurita_804:0.638432,Rhopilema_esculentum_4679:0.507384)[&bootstrap=100]:0.817784)[&bootstrap=87]:0.113925)[&bootstrap=99]:0.218599,(Tripedalia_cystophora_A0A059NTC6_xenopsin:0.567308,Tripedalia_cystophora_A0A059NTC8_xenopsin:0.504181)[&bootstrap=100]:0.476843)[&bootstrap=90]:0.151008,(Tripedalia_cystophora_A0A059NTC7_xenopsin:0.617616,Tripedalia_cystophora_A0A059NTD3_xenopsin:1.058512)[&bootstrap=100]:0.255894)[&bootstrap=100]:0.619461,Tripedalia_cystophora_EU310498_xenopsin:0.245279);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=446;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="bootstrap";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="bootstrap";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
